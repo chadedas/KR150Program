@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/chard/Scenes/scene.unity
+    path: Assets/chard/Scenes/LoginScenes.unity
     guid: 64e6699750b6c1544918f46d485018e4
   - enabled: 1
-    path: Assets/chard/Scenes/PlayScene.unity
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 5724deac20f5e234d995a0033b54d6e1
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
