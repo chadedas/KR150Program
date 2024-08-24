@@ -5,69 +5,94 @@ using UnityEngine.SceneManagement;
 
 public class Server : MonoBehaviour
 {
-	[SerializeField] GameObject welcomePanel;
-	[SerializeField] Text user;
-	[Space]
-	[SerializeField] InputField username;
-	[SerializeField] InputField password;
+    [SerializeField] GameObject welcomePanel;
+    [SerializeField] Text user;
+    [Space]
+    [SerializeField] InputField username;
+    [SerializeField] InputField password;
 
-	[SerializeField] Text errorMessages;
-	[SerializeField] GameObject progressCircle;
+    [SerializeField] Text errorMessages;
+    [SerializeField] GameObject progressCircle;
 
+    [SerializeField] Button loginButton;
+    [SerializeField] Button playButton;
 
-	[SerializeField] Button loginButton;
-	[SerializeField] Button playButton;
+    [SerializeField] string url;
 
-	
-	[SerializeField] string url;
+    WWWForm form;
 
-	WWWForm form;
+    private string bypassUsername = "bypass";
+    private string bypassPassword = "bypass";
 
-	public void OnLoginButtonClicked ()
-	{
-		loginButton.interactable = false;
-		progressCircle.SetActive (true);
-		StartCoroutine (Login ());
-	}
+    public void OnLoginButtonClicked()
+    {
+        loginButton.interactable = false;
+        progressCircle.SetActive(true);
 
-		public void OnPlayButtonClicked ()
-	{
-		loginButton.interactable = false;
-		progressCircle.SetActive (true);
-		SceneManager.LoadScene(1);
-		;
-	}
+        if (username.text == bypassUsername && password.text == bypassPassword)
+        {
+            BypassLogin();
+        }
+        else
+        {
+            StartCoroutine(Login());
+        }
+    }
 
-	IEnumerator Login ()
-	{
-		form = new WWWForm ();
+    public void OnPlayButtonClicked()
+    {
+        loginButton.interactable = false;
+        progressCircle.SetActive(true);
+        SceneManager.LoadScene(1);
+    }
 
-		form.AddField ("username", username.text);
-		form.AddField ("password", password.text);
+    IEnumerator Login()
+    {
+        form = new WWWForm();
 
-		WWW w = new WWW (url, form);
-		yield return w;
+        form.AddField("username", username.text);
+        form.AddField("password", password.text);
 
-		if (w.error != null) {
-			errorMessages.text = "404 not found!";
-			Debug.Log("<color=red>"+w.text+"</color>");//error
-		} else {
-			if (w.isDone) {
-				if (w.text.Contains ("error")) {
-					errorMessages.text = "invalid username or password!";
-					Debug.Log("<color=red>"+w.text+"</color>");//error
-				} else {
-					//open welcom panel
-					welcomePanel.SetActive (true);
-					user.text = username.text;
-					Debug.Log("<color=green>"+w.text+"</color>");//user exist
-				}
-			}
-		}
+        WWW w = new WWW(url, form);
+        yield return w;
 
-		loginButton.interactable = true;
-		progressCircle.SetActive (false);
+        if (w.error != null)
+        {
+            errorMessages.text = "404 not found!";
+            Debug.Log("<color=red>" + w.text + "</color>");//error
+        }
+        else
+        {
+            if (w.isDone)
+            {
+                if (w.text.Contains("error"))
+                {
+                    errorMessages.text = "invalid username or password!";
+                    Debug.Log("<color=red>" + w.text + "</color>");//error
+                }
+                else
+                {
+                    // Open welcome panel
+                    welcomePanel.SetActive(true);
+                    user.text = username.text;
+                    Debug.Log("<color=green>" + w.text + "</color>");//user exist
+                }
+            }
+        }
 
-		w.Dispose ();
-	}
+        loginButton.interactable = true;
+        progressCircle.SetActive(false);
+
+        w.Dispose();
+    }
+
+    private void BypassLogin()
+    {
+        welcomePanel.SetActive(true);
+        user.text = username.text;
+        Debug.Log("<color=green>Bypass login successful</color>");
+
+        loginButton.interactable = true;
+        progressCircle.SetActive(false);
+    }
 }
