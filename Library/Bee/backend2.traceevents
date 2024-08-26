@@ -1,212 +1,250 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1724483448868343, "dur":18262, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724483448886612, "dur":100, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724483448886741, "dur":221, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724483448887088, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1724483448886974, "dur":2253, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724483448889229, "dur":115376, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724483449004710, "dur":977, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1724483448887351, "dur":1884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1724483448889237, "dur":3723, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1724483448895538, "dur":528, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1724483448896070, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724483448896160, "dur":18534, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1724483448914823, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playereab4e556-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1724483448896069, "dur":18907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724483448915352, "dur":85336, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724483449003379, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724483449003379, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1724483449003471, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1724483448887478, "dur":2082, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724483448889562, "dur":1000, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724483448890562, "dur":2411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724483448893041, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724483448893120, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1724483448893188, "dur":1378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1724483448894584, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724483448894574, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724483448898371, "dur":4023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1724483448902444, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1724483448906664, "dur":97909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724483448887549, "dur":2060, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724483448889611, "dur":780, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724483448890391, "dur":2604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724483448893001, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":3, "ts":1724483448893130, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1724483448893122, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1724483448893203, "dur":1403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1724483448894612, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724483448894611, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724483448897727, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1724483448900975, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":3, "ts":1724483448903398, "dur":4196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1724483448907630, "dur":96907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724483448887432, "dur":1819, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724483448889252, "dur":702, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724483448889954, "dur":3295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724483448893249, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1724483448894321, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1724483448894389, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724483448894386, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724483448896433, "dur":4776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1724483448901263, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1724483448903390, "dur":5402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1724483448908816, "dur":95629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724483448887769, "dur":1990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724483448889760, "dur":3510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724483448893276, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1724483448893270, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1724483448893369, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724483448893435, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1724483448893434, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1724483448893539, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1724483448894017, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724483448894118, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1724483448894671, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724483448894670, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724483448897360, "dur":4023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1724483448901538, "dur":7591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1724483448909150, "dur":95269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448887381, "dur":1859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448889242, "dur":719, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448889961, "dur":3029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893008, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1724483448892991, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893117, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893191, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893262, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893321, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893441, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893586, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893585, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893638, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893887, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448893960, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448894024, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448894096, "dur":755, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448894863, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448894974, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895051, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895131, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895247, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895315, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895632, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895701, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895775, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448895907, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896010, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896237, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896295, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896375, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896566, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896664, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896762, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896846, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1724483448896983, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1724483448901438, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1724483448902774, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/level1" }}
-,{ "pid":12345, "tid":6, "ts":1724483448906300, "dur":98241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724483448887409, "dur":1835, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724483448889246, "dur":1122, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724483448890368, "dur":2615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724483448893010, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1724483448892989, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1724483448893286, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1724483448893574, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1724483448893663, "dur":888, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":7, "ts":1724483448893663, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly.exe" }}
-,{ "pid":12345, "tid":7, "ts":1724483448894609, "dur":474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724483448894608, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724483448899350, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1724483448902471, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1724483448906371, "dur":98052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724483448887455, "dur":2024, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724483448889481, "dur":845, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724483448890327, "dur":2889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724483448893216, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1724483448894229, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724483448894312, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1724483448894383, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724483448894383, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724483448896679, "dur":4283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1724483448901021, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1724483448903077, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1724483448906529, "dur":98072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448887572, "dur":2061, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448889634, "dur":571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448890206, "dur":3031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893242, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893237, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893307, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893383, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893383, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893459, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893533, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893700, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893785, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893850, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448893922, "dur":719, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448894649, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724483448894649, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724483448901141, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448897934, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1724483448901276, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1724483448901275, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1724483448901499, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1724483448901690, "dur":4800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/resources.assets" }}
-,{ "pid":12345, "tid":9, "ts":1724483448906535, "dur":97899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448887590, "dur":2115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448889707, "dur":506, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448890213, "dur":3021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448893235, "dur":1520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":10, "ts":1724483448894981, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448895054, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448895318, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448895393, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448895497, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448895632, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896004, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896080, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896178, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896738, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896814, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896878, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896876, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1724483448896969, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1724483448897060, "dur":4618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":10, "ts":1724483448901889, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/level2.resS" }}
-,{ "pid":12345, "tid":10, "ts":1724483448904344, "dur":3245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":10, "ts":1724483448907626, "dur":96946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448887633, "dur":2096, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448889730, "dur":4432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448894177, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448894289, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448894382, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724483448894381, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724483448901144, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448896998, "dur":4286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":11, "ts":1724483448901350, "dur":13421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1724483448901349, "dur":13424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":11, "ts":1724483448914774, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1724483448914867, "dur":89572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448887727, "dur":2016, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448889743, "dur":3449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893254, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893193, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893391, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893524, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893585, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893584, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893697, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893807, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893893, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448893992, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448894068, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448894287, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1724483448894348, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724483448894347, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724483448896445, "dur":3952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1724483448900550, "dur":7423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1724483448908057, "dur":96476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1724483449007475, "dur":592, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1724492893048528, "dur":18012, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893066545, "dur":51, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893066626, "dur":263, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893067071, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1724492893067380, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1724492893067873, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1724492893066911, "dur":2240, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893069153, "dur":160865, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893230030, "dur":189, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893230436, "dur":2102, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1724492893067411, "dur":1829, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724492893069243, "dur":801, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724492893070044, "dur":2654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1724492893072753, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1724492893072703, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1724492893073663, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1724492893076908, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1724492893076906, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1724492893077240, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1724492893078849, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1724492893079835, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1724492893080863, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1724492893081083, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1724492893085751, "dur":7726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893093573, "dur":3321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893096951, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893099654, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893103040, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893107802, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893110926, "dur":4034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893115051, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893119177, "dur":9066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1724492893128325, "dur":8332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1724492893136727, "dur":11875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1724492893148647, "dur":81381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724492893067363, "dur":1837, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724492893069226, "dur":566, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724492893069792, "dur":2993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1724492893072786, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1724492893079502, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1724492893081295, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1724492893081294, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1724492893081378, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1724492893085497, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893089526, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893093538, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893097097, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893099570, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893103287, "dur":4758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893108105, "dur":6134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893114287, "dur":4330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893118666, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893122076, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893122074, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893122157, "dur":27052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1724492893149245, "dur":80750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724492893067483, "dur":1767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724492893069251, "dur":836, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724492893070088, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724492893072703, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1724492893097652, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1724492893099222, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724492893102533, "dur":4588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724492893107190, "dur":6398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724492893113620, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724492893117810, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1724492893122508, "dur":11089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1724492893133686, "dur":7123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1724492893140833, "dur":89207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724492893067332, "dur":1838, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724492893069173, "dur":947, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724492893070120, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1724492893072727, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1724492893072711, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1724492893074238, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1724492893076196, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1724492893077071, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1724492893078240, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1724492893078349, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1724492893080014, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1724492893080012, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1724492893080815, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1724492893082624, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1724492893083899, "dur":5519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1724492893089475, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893093102, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893095246, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893098038, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893100454, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893103578, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893107925, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893110803, "dur":4893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893115743, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893119259, "dur":8627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1724492893128042, "dur":7183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1724492893135286, "dur":12360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1724492893147680, "dur":82316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724492893067218, "dur":1944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724492893069164, "dur":3519, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1724492893073264, "dur":291, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":5, "ts":1724492893073558, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1724492893073788, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893073883, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893073983, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893074131, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893074348, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893074663, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893074713, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893074910, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\KR150Programming\\KR150_GUI\\KR150Program\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1724492893073557, "dur":1706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1724492893076313, "dur":132035, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1724492893212163, "dur":16686, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1724492893212162, "dur":16689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1724492893228878, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1724492893067621, "dur":1697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724492893069319, "dur":3467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1724492893072798, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1724492893072786, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1724492893096521, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1724492893098489, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893102463, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893106735, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893109745, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893112324, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893116381, "dur":3897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893120340, "dur":12333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1724492893133726, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1724492893137392, "dur":10249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1724492893147679, "dur":82324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724492893067270, "dur":1896, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724492893069169, "dur":728, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724492893069897, "dur":2827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1724492893072730, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1724492893097220, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1724492893099247, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893102154, "dur":4310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893106523, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893109690, "dur":3534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893113267, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893116959, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893120818, "dur":11143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1724492893132056, "dur":8572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1724492893140688, "dur":8286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1724492893149008, "dur":81000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724492893067378, "dur":1852, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724492893069232, "dur":701, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724492893069933, "dur":2822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1724492893072766, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1724492893072755, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1724492893079548, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1724492893081302, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1724492893081381, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1724492893085695, "dur":6654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893092467, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893095363, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893097850, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893100363, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893103292, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893107648, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893110535, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893113820, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893117551, "dur":3792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893121410, "dur":11467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1724492893132954, "dur":15406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1724492893148402, "dur":81594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724492893067404, "dur":1831, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724492893069238, "dur":613, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724492893069851, "dur":2864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1724492893072721, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1724492893080872, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1724492893082068, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893082067, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893082301, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893085456, "dur":5265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893090808, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893094068, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893097045, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893099223, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893101883, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893104569, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893108244, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893110706, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893114386, "dur":3998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893118428, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893121735, "dur":11214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1724492893132997, "dur":7661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1724492893140789, "dur":8655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1724492893149468, "dur":80505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724492893067543, "dur":1711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724492893069256, "dur":411, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724492893069667, "dur":3157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1724492893072824, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1724492893080804, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1724492893081919, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1724492893083720, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1724492893085554, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893089473, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893093541, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893096871, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893098782, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893102094, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893105854, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893109128, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893112282, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893115990, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893119592, "dur":8289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1724492893127954, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1724492893132149, "dur":6894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1724492893139112, "dur":11234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1724492893150366, "dur":79609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724492893067583, "dur":1682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724492893069266, "dur":3531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1724492893072797, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1724492893080055, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1724492893082180, "dur":396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1724492893082179, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly.exe" }}
+,{ "pid":12345, "tid":11, "ts":1724492893082604, "dur":5177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly.exe" }}
+,{ "pid":12345, "tid":11, "ts":1724492893088619, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893092148, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893095430, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893100735, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893104263, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893108016, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893111486, "dur":3857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893115386, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893119167, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1724492893123364, "dur":13726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1724492893137193, "dur":9813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1724492893147072, "dur":82900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724492893067568, "dur":1689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724492893069258, "dur":3569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1724492893072835, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1724492893072828, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1724492893080376, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1724492893082179, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.40f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893082178, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893082354, "dur":11864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893094265, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893097568, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893100560, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893105789, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893109748, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893112768, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893116665, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893120467, "dur":11799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1724492893132334, "dur":16827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/KR150Programming/KR150_GUI/Lancher/N.P. Robotics RoboAssembly_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1724492893149202, "dur":80800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1724492893237142, "dur":904, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

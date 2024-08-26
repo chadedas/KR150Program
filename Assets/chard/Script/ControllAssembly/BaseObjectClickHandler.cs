@@ -1,10 +1,11 @@
-using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
 public abstract class BaseObjectClickHandler : MonoBehaviour
 {
     protected Animator animator;
     protected bool isActive = false;
+    public float delayBeforeDestroy = 5f;
 
     protected virtual void Start()
     {
@@ -35,12 +36,14 @@ public abstract class BaseObjectClickHandler : MonoBehaviour
 
                 animator.SetTrigger("TriggerDisappear");
                 OnDisappear();
+                StartCoroutine(WaitAndDestroy());
             }
             else
             {
                 Debug.Log("Animator state is not Appear");
                 animator.SetTrigger("TriggerAppear");
                 OnAppear();
+                StartCoroutine(WaitAndDestroy());
             }
         }
         else
@@ -51,4 +54,9 @@ public abstract class BaseObjectClickHandler : MonoBehaviour
 
     protected virtual void OnAppear() { }
     protected virtual void OnDisappear() { }
+    private IEnumerator WaitAndDestroy()
+    {
+        yield return new WaitForSeconds(delayBeforeDestroy);
+        Destroy(gameObject);
+    }
 }
