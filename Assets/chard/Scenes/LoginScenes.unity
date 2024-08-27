@@ -467,7 +467,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 330587375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2141276921}
+        m_TargetAssemblyTypeName: Server, Assembly-CSharp
+        m_MethodName: OnLogoutButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &330587375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,17 +744,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572549992}
   m_CullTransparentMesh: 1
---- !u!114 &575067654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9076615143786627311, guid: 10a0d2f7331435444b244bf053d1fea8, type: 3}
-  m_PrefabInstance: {fileID: 1529632672486506925}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &665358797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,11 +2616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8956360354113963151, guid: 10a0d2f7331435444b244bf053d1fea8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 269.86
+      value: 269.85
       objectReference: {fileID: 0}
     - target: {fileID: 8956360354113963151, guid: 10a0d2f7331435444b244bf053d1fea8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -90.6
+      value: -94.399994
       objectReference: {fileID: 0}
     - target: {fileID: 9076615143786627311, guid: 10a0d2f7331435444b244bf053d1fea8, type: 3}
       propertyPath: m_Text
@@ -2842,7 +2843,7 @@ PrefabInstance:
     - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
       propertyPath: user
       value: 
-      objectReference: {fileID: 575067654}
+      objectReference: {fileID: 1836749745}
     - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
       propertyPath: password
       value: 
@@ -2852,6 +2853,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1072043066}
     - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
+      propertyPath: loginPanel
+      value: 
+      objectReference: {fileID: 2026483380}
+    - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
       propertyPath: playButton
       value: 
       objectReference: {fileID: 427663313}
@@ -2859,6 +2864,10 @@ PrefabInstance:
       propertyPath: loginButton
       value: 
       objectReference: {fileID: 2042325629}
+    - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
+      propertyPath: logoutButton
+      value: 
+      objectReference: {fileID: 330587374}
     - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
       propertyPath: welcomePanel
       value: 

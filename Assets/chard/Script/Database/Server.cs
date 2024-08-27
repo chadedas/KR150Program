@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Server : MonoBehaviour
 {
     [SerializeField] GameObject welcomePanel;
+    [SerializeField] GameObject loginPanel;
     [SerializeField] Text user;
     [Space]
     [SerializeField] InputField username;
@@ -16,6 +17,7 @@ public class Server : MonoBehaviour
 
     [SerializeField] Button loginButton;
     [SerializeField] Button playButton;
+    [SerializeField] Button logoutButton;
 
     [SerializeField] string url;
 
@@ -41,9 +43,17 @@ public class Server : MonoBehaviour
 
     public void OnPlayButtonClicked()
     {
-        loginButton.interactable = false;
+        playButton.interactable = false;
         progressCircle.SetActive(true);
         SceneManager.LoadScene(1);
+    }
+
+    public void OnLogoutButtonClicked()
+    {
+        logoutButton.interactable = false;
+        progressCircle.SetActive(true);
+        welcomePanel.SetActive(false);
+        loginPanel.SetActive(true);
     }
 
     IEnumerator Login()

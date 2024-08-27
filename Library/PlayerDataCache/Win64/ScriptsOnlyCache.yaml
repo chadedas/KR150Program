@@ -116,6 +116,9 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: Server
+    methodName: OnLogoutButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: Server
     methodName: OnPlayButtonClicked
   - assembly: Assembly-CSharp
     fullTypeName: Server
@@ -1479,7 +1482,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d92ecb76d9e8895eff2cff4d2f8dae96
+      Hash: 761ebf2c97cc51f77ebff41936011096
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Server
