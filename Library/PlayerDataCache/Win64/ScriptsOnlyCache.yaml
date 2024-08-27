@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - ObjectBClickHandler
     - ObjectCClickHandler
     - Outline
+    - PasswordToggle
     - Server
     - ToggleButtons
     Cinemachine.dll:
@@ -160,11 +161,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5326}
     - Class: 114
-      Script: {instanceID: 6078}
+      Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 7052}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -261,29 +262,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4960}
     - Class: 114
-      Script: {instanceID: 5308}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 5872}
+      Script: {instanceID: 5874}
     - Class: 114
-      Script: {instanceID: 6410}
+      Script: {instanceID: 6412}
     - Class: 114
-      Script: {instanceID: 6826}
+      Script: {instanceID: 6828}
     - Class: 114
-      Script: {instanceID: 6968}
+      Script: {instanceID: 6970}
     - Class: 114
-      Script: {instanceID: 7050}
+      Script: {instanceID: 7052}
     - Class: 114
-      Script: {instanceID: 7144}
+      Script: {instanceID: 7146}
     - Class: 114
-      Script: {instanceID: 7158}
+      Script: {instanceID: 7160}
     - Class: 114
-      Script: {instanceID: 7492}
+      Script: {instanceID: 7494}
     - Class: 114
-      Script: {instanceID: 7850}
+      Script: {instanceID: 7852}
     - Class: 114
-      Script: {instanceID: 8018}
+      Script: {instanceID: 8020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -327,15 +328,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1618}
@@ -349,6 +352,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1882}
     - Class: 114
       Script: {instanceID: 2298}
+    - Class: 114
+      Script: {instanceID: 2426}
     - Class: 114
       Script: {instanceID: 2738}
     - Class: 114
@@ -364,9 +369,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4570}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 5258}
     - Class: 114
-      Script: {instanceID: 6390}
+      Script: {instanceID: 5326}
+    - Class: 114
+      Script: {instanceID: 6392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -384,6 +391,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -460,7 +471,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 8676565ce3d09ec6e23739a5ba0cc5ae
+      Hash: 0d2b1e921dd8270d2b6fef465ae4d47d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ObjectBClickHandler
@@ -814,7 +825,7 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 641ae6b3c45088a9cf3eee2fcee2d3db
+      Hash: 4bbaeed7b610c1190555a537f4cfd6c9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ObjectCClickHandler
@@ -1270,6 +1281,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: e771b98b7e13e349c67cc094166fd2a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PasswordToggle
+  - hash:
+      serializedVersion: 2
       Hash: 33f160a5c07e580c29aba2bd1e4db811
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1666,7 +1683,7 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: 0a36ecbef3ecf1cb1a87ed29422b3488
+      Hash: 976b6e7b1a2bca5c2ddfba517682287a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ObjectAClickHandler
@@ -1897,4 +1914,4 @@ ScriptsOnlyBuild:
   - Assets/chard/Scenes/LoginScenes.unity
   - Assets/Scenes/LoadingScene.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/smile/OneDrive/Desktop/KUKA_GUI/N.P. Robotics RoboAssembly.exe
+  playerPath: C:/Users/smile/OneDrive/Desktop/UnityTest/N.P. Robotics RoboAssembly.exe

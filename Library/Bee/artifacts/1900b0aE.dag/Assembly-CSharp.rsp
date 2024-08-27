@@ -363,6 +363,7 @@
 "Assets/chard/Script/ControllAssembly/ObjectAClickHandler.cs"
 "Assets/chard/Script/ControllAssembly/ObjectBClickHandler.cs"
 "Assets/chard/Script/ControllAssembly/ObjectCClickHandler.cs"
+"Assets/chard/Script/Database/PasswordToggle.cs"
 "Assets/chard/Script/Database/Server.cs"
 "Assets/chard/Script/Database/Web.cs"
 "Assets/chard/Script/NotUse_Examp/Click/ToggleAnimation.cs"

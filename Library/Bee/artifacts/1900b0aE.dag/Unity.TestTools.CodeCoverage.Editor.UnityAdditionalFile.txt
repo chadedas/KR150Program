@@ -1,1 +1,1 @@
-C:\KR150Programming\KR150_GUI\KR150Program
+C:\github\KR150Program

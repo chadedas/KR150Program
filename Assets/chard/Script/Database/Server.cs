@@ -58,7 +58,7 @@ public class Server : MonoBehaviour
 
         if (w.error != null)
         {
-            errorMessages.text = "404 not found!";
+            errorMessages.text = "Can't Login!!!";
             Debug.Log("<color=red>" + w.text + "</color>");//error
         }
         else

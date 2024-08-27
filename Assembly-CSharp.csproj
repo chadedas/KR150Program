@@ -109,6 +109,7 @@
     <Compile Include="Assets\chard\Script\Database\Web.cs" />
     <Compile Include="Assets\Script\SceneChanger.cs" />
     <Compile Include="Assets\chard\Script\Camera\ControlledFreeLookCamera.cs" />
+    <Compile Include="Assets\chard\Script\Database\PasswordToggle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Script\ButtonHover.cs" />
     <Compile Include="Assets\chard\Script\ControllAssembly\ObjectBClickHandler.cs" />
