@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -20,8 +21,6 @@ public class Server : MonoBehaviour
     [SerializeField] Button logoutButton;
 
     [SerializeField] string url;
-
-    WWWForm form;
 
     private string bypassUsername = "bypass";
     private string bypassPassword = "bypass";
@@ -58,42 +57,38 @@ public class Server : MonoBehaviour
 
     IEnumerator Login()
     {
-        form = new WWWForm();
-
+        WWWForm form = new WWWForm();
         form.AddField("username", username.text);
         form.AddField("password", password.text);
 
-        WWW w = new WWW(url, form);
-        yield return w;
+        using (UnityWebRequest www = UnityWebRequest.Post(url, form))
+        {
+            yield return www.SendWebRequest();
 
-        if (w.error != null)
-        {
-            errorMessages.text = "Can't Login!!!";
-            Debug.Log("<color=red>" + w.text + "</color>");//error
-        }
-        else
-        {
-            if (w.isDone)
+if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
+{
+    errorMessages.text = "Can't Login!!!";
+    Debug.Log("<color=red>" + www.error + "</color>");
+}
+            else
             {
-                if (w.text.Contains("error"))
+                if (www.downloadHandler.text.Contains("error"))
                 {
                     errorMessages.text = "invalid username or password!";
-                    Debug.Log("<color=red>" + w.text + "</color>");//error
+                    Debug.Log("<color=red>" + www.downloadHandler.text + "</color>");
                 }
                 else
                 {
                     // Open welcome panel
                     welcomePanel.SetActive(true);
                     user.text = username.text;
-                    Debug.Log("<color=green>" + w.text + "</color>");//user exist
+                    Debug.Log("<color=green>" + www.downloadHandler.text + "</color>");
                 }
             }
+
+            loginButton.interactable = true;
+            progressCircle.SetActive(false);
         }
-
-        loginButton.interactable = true;
-        progressCircle.SetActive(false);
-
-        w.Dispose();
     }
 
     private void BypassLogin()
