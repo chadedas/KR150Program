@@ -2,48 +2,67 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
+using System.Linq;
 
 public class LoadingScreen : MonoBehaviour
 {
-    public Slider progressBar; // ตัว Slider ที่จะใช้แสดงสถานะการโหลด
-    public Text progressText; // ตัว Text ที่จะใช้แสดงสถานะการโหลด (ถ้ามี)
-    public float fakeLoadingTime = 3.0f; // เวลาหน่วงในการโหลด (หน่วยเป็นวินาที)
-    public CanvasGroup imageCanvasGroup; // ตัว CanvasGroup ของรูปภาพที่ต้องการให้ fade
+    public Slider progressBar;
+    public Text progressText;
+    public CanvasGroup imageCanvasGroup;
+
+    private float baseLoadingTime = 3.0f;
+    private float adjustedLoadingTime;
 
     void Start()
     {
-        // เรียก Coroutine เพื่อเริ่มโหลด Scene
+        adjustedLoadingTime = CalculateLoadingTime();
         StartCoroutine(LoadAsyncOperation());
     }
 
     IEnumerator LoadAsyncOperation()
     {
-        // ตัวอย่างการโหลด Scene ที่ชื่อ "MainScene" แบบ Asynchronously
         AsyncOperation gameLevel = SceneManager.LoadSceneAsync("MainScene");
-        
-        // ปิดการโหลดอัตโนมัติเพื่อให้การโหลดช้าลง
         gameLevel.allowSceneActivation = false;
 
         float elapsedTime = 0f;
 
-        while (elapsedTime < fakeLoadingTime)
+        while (elapsedTime < adjustedLoadingTime)
         {
             elapsedTime += Time.deltaTime;
-            // อัพเดต Progress Bar และ Text
-            progressBar.value = Mathf.Clamp01(elapsedTime / fakeLoadingTime);
+            progressBar.value = Mathf.Clamp01(elapsedTime / adjustedLoadingTime);
             progressText.text = Mathf.RoundToInt(progressBar.value * 100) + "%";
+            imageCanvasGroup.alpha = Mathf.Clamp01(elapsedTime / adjustedLoadingTime);
 
-            // ค่อยๆ เพิ่มค่าความโปร่งใสของรูปภาพ
-            imageCanvasGroup.alpha = Mathf.Clamp01(elapsedTime / fakeLoadingTime);
-
-            // รอให้ถึงเฟรมต่อไป
             yield return null;
         }
 
-        // หลังจากเวลาหน่วงผ่านไป ให้โหลด Scene จริง
         progressBar.value = 1;
         progressText.text = "100%";
         imageCanvasGroup.alpha = 1;
         gameLevel.allowSceneActivation = true;
+    }
+
+    float CalculateLoadingTime()
+    {
+        // สเปคมาตรฐาน
+        float baselineRAM = 8f; // GB
+        float baselineVRAM = 4f; // GTX 1050 ~ 4 GB VRAM
+        float baselineCPUSpeed = 3.0f; // GHz, ประมาณการสำหรับ i3-5400
+
+        // สเปคระบบปัจจุบัน
+        float currentRAM = SystemInfo.systemMemorySize / 1024f; // แปลงจาก MB เป็น GB
+        float currentVRAM = SystemInfo.graphicsMemorySize / 1024f; // แปลงจาก MB เป็น GB
+        float currentCPUSpeed = SystemInfo.processorFrequency / 1000f; // แปลงจาก MHz เป็น GHz
+
+        // ปรับเวลาการโหลดตามสเปค
+        float ramFactor = baselineRAM / currentRAM;
+        float vramFactor = baselineVRAM / currentVRAM;
+        float cpuFactor = baselineCPUSpeed / currentCPUSpeed;
+
+        // เฉลี่ยปัจจัยเหล่านี้เพื่อหาค่าปรับสุดท้าย
+        float performanceFactor = (ramFactor + vramFactor + cpuFactor) / 3f;
+
+        // ให้แน่ใจว่าเวลาการโหลดไม่น้อยกว่าเกณฑ์ขั้นต่ำ (เช่น 1 วินาที)
+        return Mathf.Max(baseLoadingTime * performanceFactor, 1.0f);
     }
 }

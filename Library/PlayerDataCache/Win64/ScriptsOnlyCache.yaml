@@ -13,7 +13,9 @@ ScriptsOnlyBuild:
     - Outline
     - PasswordToggle
     - Server
+    - TitleBarDoubleClick
     - ToggleButtons
+    - WindowManager
     Cinemachine.dll:
     - Cinemachine.CinemachineBasicMultiChannelPerlin
     - Cinemachine.CinemachineBrain
@@ -162,13 +164,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 5252}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 6080}
+      Script: {instanceID: 6082}
     - Class: 114
-      Script: {instanceID: 7052}
+      Script: {instanceID: 7054}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -257,37 +259,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3308}
     - Class: 114
-      Script: {instanceID: 4058}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 4582}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 4960}
+      Script: {instanceID: 4584}
     - Class: 114
-      Script: {instanceID: 5310}
+      Script: {instanceID: 4962}
     - Class: 114
-      Script: {instanceID: 5766}
+      Script: {instanceID: 5312}
     - Class: 114
-      Script: {instanceID: 5874}
+      Script: {instanceID: 5768}
     - Class: 114
-      Script: {instanceID: 6412}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 6828}
+      Script: {instanceID: 6414}
     - Class: 114
-      Script: {instanceID: 6970}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 7052}
+      Script: {instanceID: 6972}
     - Class: 114
-      Script: {instanceID: 7146}
+      Script: {instanceID: 7054}
     - Class: 114
-      Script: {instanceID: 7160}
+      Script: {instanceID: 7148}
     - Class: 114
-      Script: {instanceID: 7494}
+      Script: {instanceID: 7162}
     - Class: 114
-      Script: {instanceID: 7852}
+      Script: {instanceID: 7496}
     - Class: 114
-      Script: {instanceID: 8020}
+      Script: {instanceID: 7780}
+    - Class: 114
+      Script: {instanceID: 7856}
+    - Class: 114
+      Script: {instanceID: 8024}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -366,17 +372,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3256}
     - Class: 114
-      Script: {instanceID: 4186}
+      Script: {instanceID: 4188}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4300}
     - Class: 114
-      Script: {instanceID: 4570}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 5260}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -594,7 +600,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: b37672d2366df4232ccc122995d939c0
+      Hash: 8b6b3e17e9633a604dcf4e4026ba65ed
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: LoadingScreen
@@ -796,6 +802,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DragDrop
+  - hash:
+      serializedVersion: 2
+      Hash: 0a71a8dbba57a7ff002ab749bd9a669f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TitleBarDoubleClick
   - hash:
       serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
@@ -1482,7 +1494,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStay2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 761ebf2c97cc51f77ebff41936011096
+      Hash: 2133d3b6f3711724d7bac38f4f0a6069
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Server
@@ -1788,6 +1800,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 80edb1b0b6742c2b344cd379ca216755
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WindowManager
+  - hash:
+      serializedVersion: 2
       Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1917,4 +1935,4 @@ ScriptsOnlyBuild:
   - Assets/chard/Scenes/LoginScenes.unity
   - Assets/Scenes/LoadingScene.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/smile/OneDrive/Desktop/UnityTest/N.P. Robotics RoboAssembly.exe
+  playerPath: C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly.exe

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638602377490000000
-    m_Hash: 2079689385
+      ticks: 638605989390296815
+    m_Hash: 1177570537
   m_LockFileStatus:
     m_FilePath: C:/github/KR150Program/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638602377490000000
-    m_Hash: 3594195072
+      ticks: 638605989390317187
+    m_Hash: 1395184167
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -753,18 +753,18 @@ m_ResolvedPackages:
     recommended: 1.7.6
     deprecated: []
   dependencies:
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.director
-    version: 1.0.0
   - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -968,6 +968,62 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.9.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.wooshii.hierarchydecorator@https://github.com/WooshiiDev/HierarchyDecorator.git
+  testable: 0
+  isDirectDependency: 1
+  version: 0.9.1
+  source: 5
+  resolvedPath: C:\github\KR150Program\Library\PackageCache\com.wooshii.hierarchydecorator@2590c6a14a
+  assetPath: Packages/com.wooshii.hierarchydecorator
+  name: com.wooshii.hierarchydecorator
+  displayName: HierarchyDecorator
+  author:
+    name: 
+    email: 
+    url: 
+  category: Editor
+  type: 
+  description: HierarchyDecorator is an extension for the Unity Hierarchy enhancing
+    it's utility.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - hierarchy
+  - editor
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
