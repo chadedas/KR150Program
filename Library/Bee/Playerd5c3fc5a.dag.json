@@ -153,7 +153,8 @@
         145,
         146,
         147,
-        148
+        148,
+        149
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -403,7 +404,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16183,
+      "PayloadLength": 16031,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -506,15 +507,16 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Wooshii.HierarchyDecorator.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll",
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/github/KR150Program/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
@@ -1420,7 +1422,7 @@
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Assembly-CSharp.dll"
@@ -1428,100 +1430,112 @@
       "DebugActionIndex": 92
     },
     {
+      "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Wooshii.HierarchyDecorator.dll",
+      "DisplayName": "Copying Wooshii.HierarchyDecorator.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Wooshii.HierarchyDecorator.dll"
+      ],
+      "Outputs": [
+        "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Wooshii.HierarchyDecorator.dll"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.Timeline.dll",
       "DisplayName": "Copying Unity.Timeline.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UI.dll",
       "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.TextMeshPro.dll",
       "DisplayName": "Copying Unity.TextMeshPro.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Core.dll",
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.State.dll",
       "DisplayName": "Copying Unity.VisualScripting.State.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Cinemachine.dll",
       "DisplayName": "Copying Cinemachine.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Cinemachine.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Cinemachine.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Flow.dll",
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+        "C:/github/KR150Program/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "C:/github/KR150Program/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/netstandard.dll",
@@ -1533,7 +1547,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Mono.Security.dll",
@@ -1545,7 +1559,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1557,7 +1571,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Configuration.dll",
@@ -1569,7 +1583,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Core.dll",
@@ -1581,7 +1595,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1593,7 +1607,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Data.dll",
@@ -1605,7 +1619,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Drawing.dll",
@@ -1617,7 +1631,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.EnterpriseServices.dll",
@@ -1629,7 +1643,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1641,7 +1655,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.IO.Compression.dll",
@@ -1653,7 +1667,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Net.Http.dll",
@@ -1665,7 +1679,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Numerics.dll",
@@ -1677,7 +1691,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Runtime.Serialization.dll",
@@ -1689,7 +1703,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Security.dll",
@@ -1701,7 +1715,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1713,7 +1727,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Transactions.dll",
@@ -1725,7 +1739,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Xml.Linq.dll",
@@ -1737,7 +1751,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Xml.dll",
@@ -1749,7 +1763,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.dll",
@@ -1761,7 +1775,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/mscorlib.dll",
@@ -1773,20 +1787,20 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16355,
+      "PayloadOffset": 16203,
       "PayloadLength": 51,
       "PayloadDebugContentSnippet": "N.P. Robotics _ Solution\nN.P. ",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/app.info",
@@ -1799,9 +1813,9 @@
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/app.info"
       ],
       "ToBuildDependencies": [
-        122
+        123
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Resources/unity default resources",
@@ -1813,7 +1827,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly.exe",
@@ -1825,7 +1839,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/N.P. Robotics RoboAssembly.exe"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1837,7 +1851,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1849,7 +1863,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1861,7 +1875,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1873,7 +1887,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1885,7 +1899,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1897,7 +1911,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1909,7 +1923,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1921,7 +1935,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1933,7 +1947,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1945,7 +1959,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1957,7 +1971,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1969,7 +1983,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1981,7 +1995,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1993,7 +2007,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2005,7 +2019,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2017,7 +2031,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2029,7 +2043,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2041,7 +2055,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/config",
@@ -2053,7 +2067,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2065,7 +2079,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/UnityCrashHandler64.exe",
@@ -2077,7 +2091,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles C:/Users/smile/OneDrive/Desktop/test/UnityPlayer.dll",
@@ -2089,7 +2103,7 @@
       "Outputs": [
         "C:/Users/smile/OneDrive/Desktop/test/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "Player",
@@ -2216,7 +2230,7 @@
         119,
         120,
         121,
-        123,
+        122,
         124,
         125,
         126,
@@ -2240,10 +2254,11 @@
         144,
         145,
         146,
-        147
+        147,
+        148
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 148
+      "DebugActionIndex": 149
     }
   ],
   "FileSignatures": [
@@ -2444,7 +2459,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 148
+          "Player": 149
         }
 ,  "DefaultNodes": [
     0
@@ -2452,6 +2467,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Playerd5c3fc5a.dag.json",
-  "PayloadsFile": "C:/Users/smile/OneDrive/Desktop/KR150Program-main/Library/Bee/Playerd5c3fc5a.dag.payloads",
+  "PayloadsFile": "C:/github/KR150Program/Library/Bee/Playerd5c3fc5a.dag.payloads",
   "RelativePathToRoot": "../.."
 }

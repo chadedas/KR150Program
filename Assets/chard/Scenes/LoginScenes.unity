@@ -3358,7 +3358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
       propertyPath: url
-      value: http://localhost:80/unity/api/
+      value: https://www.manage.np-robotics.com/api
       objectReference: {fileID: 0}
     - target: {fileID: 1553327083744870452, guid: de948874833b5c747991f9d89667549f, type: 3}
       propertyPath: date

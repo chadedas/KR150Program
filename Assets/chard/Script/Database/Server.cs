@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
 using System;
 using System.Globalization;
+using System.Net;
+
 public class Server : MonoBehaviour
 {
+    
     [SerializeField] GameObject welcomePanel;
     [SerializeField] Text user;
     [SerializeField] GameObject loginPanel;
@@ -87,97 +90,103 @@ public class Server : MonoBehaviour
 
 
     IEnumerator Login()
+{
+    WWWForm form = new WWWForm();
+    form.AddField("username", username.text);
+    form.AddField("password", password.text);
+
+    using (UnityWebRequest www = UnityWebRequest.Post(url, form))
     {
-        WWWForm form = new WWWForm();
-        form.AddField("username", username.text);
-        form.AddField("password", password.text);
+        www.certificateHandler = new CustomCertificateHandler(); // Add this line
 
-        using (UnityWebRequest www = UnityWebRequest.Post(url, form))
+        yield return www.SendWebRequest();
+
+        if (www.result != UnityWebRequest.Result.Success)
         {
-            yield return www.SendWebRequest();
-
-            if (www.result != UnityWebRequest.Result.Success)
+            errorMessages.text = "Can't Login!!!";
+            Debug.Log("<color=red>" + www.error + "</color>");
+        }
+        else
+        {
+            if (www.isDone)
             {
-                errorMessages.text = "Can't Login!!!";
-                Debug.Log("<color=red>" + www.error + "</color>");
-            }
-            else
-            {
-                if (www.isDone)
+                // Split response to get the required data
+                string response = www.downloadHandler.text;
+                Debug.Log("Response from server: " + response);
+                if (response.Contains("error"))
                 {
-                    // Split response to get the required data
-                    string response = www.downloadHandler.text;
+                    errorMessages.text = "Invalid username or password!";
+                    Debug.Log("<color=red>" + response + "</color>");
+                }
+                else
+                {
+                    // Parse the response to extract first name and last name
+                    string[] data = response.Split(new[] { " - " }, System.StringSplitOptions.None);
+                    user.text = data[1]; // username
+                    firstNameText.text = data[2].Split(' ')[0]; // first name
+                    lastNameText.text = data[3].Split(' ')[0];  // last name
+                    dateText.text = data[4];
+                    licenseText.text = data[5];
+                    licenseEXPText.text = data[6];
 
-                    if (response.Contains("error"))
+                    // Check if EXPDATE is NULL
+                    if (string.IsNullOrEmpty(licenseEXPText.text) || licenseEXPText.text.Equals("NULL", StringComparison.OrdinalIgnoreCase))
                     {
-                        errorMessages.text = "Invalid username or password!";
-                        Debug.Log("<color=red>" + response + "</color>");
+                        daysRemainingText.text = "license lifetime";
+                        daysRemainingText.color = Color.yellow; // Set text color to yellow
+                        remainingDaysText.text = " "; // Not applicable for license lifetime
+                        alertText.gameObject.SetActive(false); // Hide alert message
                     }
                     else
                     {
-                        // Parse the response to extract first name and last name
-                        string[] data = response.Split(new[] { " - " }, System.StringSplitOptions.None);
-                        user.text = data[1]; // username
-                        firstNameText.text = data[2].Split(' ')[0]; // first name
-                        lastNameText.text = data[3].Split(' ')[0];  // last name
-                        dateText.text = data[4];
-                        licenseText.text = data[5];
-                        licenseEXPText.text = data[6];
+                        if (DateTime.TryParseExact(data[6], "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime expiryDate))
+                        {
+                            // Normalize the time components to ensure correct day difference calculation
+                            DateTime currentDate = DateTime.Now.Date; // Current date with time set to 00:00
+                            expiryDate = expiryDate.Date; // Expiry date with time set to 00:00
 
-                        // Check if EXPDATE is NULL
-                        if (string.IsNullOrEmpty(licenseEXPText.text) || licenseEXPText.text.Equals("NULL", StringComparison.OrdinalIgnoreCase))
-                        {
-                            daysRemainingText.text = "license lifetime";
-                            daysRemainingText.color = Color.yellow; // Set text color to yellow
-                            remainingDaysText.text = " "; // Not applicable for license lifetime
-                            alertText.gameObject.SetActive(false); // Hide alert message
-                        }
-                        else
-                        {
-                            if (DateTime.TryParseExact(data[6], "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime expiryDate))
+                            int daysRemaining = (expiryDate - currentDate).Days;
+
+                            // Update the status text
+                            if (daysRemaining > 0)
                             {
-                                // Normalize the time components to ensure correct day difference calculation
-                                DateTime currentDate = DateTime.Now.Date; // Current date with time set to 00:00
-                                expiryDate = expiryDate.Date; // Expiry date with time set to 00:00
-
-                                int daysRemaining = (expiryDate - currentDate).Days;
-
-                                // Update the status text
-                                if (daysRemaining > 0)
-                                {
-                                    daysRemainingText.text = "Active";
-                                    daysRemainingText.color = Color.green; // Set text color to green
-                                    alertText.gameObject.SetActive(false); // Hide alert message
-                                }
-                                else
-                                {
-                                    daysRemainingText.text = "Expiry Date";
-                                    daysRemainingText.color = Color.red; // Set text color to red
-                                    alertText.gameObject.SetActive(true); // Hide alert message
-                                }
-
-                                // Update the remaining days text
-                                remainingDaysText.text = $"{daysRemaining} days";
+                                daysRemainingText.text = "Active";
+                                daysRemainingText.color = Color.green; // Set text color to green
+                                alertText.gameObject.SetActive(false); // Hide alert message
                             }
                             else
                             {
-                                daysRemainingText.text = "Invalid Date Format";
-                                daysRemainingText.color = Color.yellow; // Set text color to yellow for invalid format
-                                remainingDaysText.text = " "; // Not applicable for invalid format
+                                daysRemainingText.text = "Expiry Date";
+                                daysRemainingText.color = Color.red; // Set text color to red
+                                alertText.gameObject.SetActive(true); // Hide alert message
                             }
+
+                            // Update the remaining days text
+                            remainingDaysText.text = $"{daysRemaining} days";
                         }
-
-                        // Open welcome panel
-                        welcomePanel.SetActive(true);
-                        Debug.Log("<color=green>" + response + "</color>");
+                        else
+                        {
+                            daysRemainingText.text = "Invalid Date Format";
+                            daysRemainingText.color = Color.yellow; // Set text color to yellow for invalid format
+                            remainingDaysText.text = " "; // Not applicable for invalid format
+                        }
                     }
-                }
-            }
 
-            loginButton.interactable = true;
-            progressCircle.SetActive(false);
+                    // Open welcome panel
+                    welcomePanel.SetActive(true);
+                    Debug.Log("<color=green>" + response + "</color>");
+                }
+                Debug.Log("Response from server: " + response);
+            }
         }
+        
+        Debug.Log("Sending Username: " + username.text);
+Debug.Log("Sending Password: " + password.text);
+        loginButton.interactable = true;
+        progressCircle.SetActive(false);
+        
     }
+}
 
     private void BypassLogin()
     {
@@ -192,4 +201,12 @@ public class Server : MonoBehaviour
         loginButton.interactable = true;
         progressCircle.SetActive(false);
     }
+    public class CustomCertificateHandler : CertificateHandler
+{
+    protected override bool ValidateCertificate(byte[] certificateData)
+    {
+        // Always return true to bypass SSL certificate validation
+        return true;
+    }
+}
 }

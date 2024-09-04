@@ -39,6 +39,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -61,6 +66,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
+    Wooshii.HierarchyDecorator.Editor.dll:
+    - HierarchyDecorator.Settings
   serializedClasses:
     Cinemachine:
     - Cinemachine.AxisState
@@ -154,23 +161,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 1670}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 2426}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2626}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 5306}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 5384}
     - Class: 114
-      Script: {instanceID: 6082}
+      Script: {instanceID: 6150}
     - Class: 114
-      Script: {instanceID: 7054}
+      Script: {instanceID: 7128}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -237,63 +244,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1670}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 1840}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 2426}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2664}
-    - Class: 114
-      Script: {instanceID: 2724}
+      Script: {instanceID: 2678}
     - Class: 114
       Script: {instanceID: 2738}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3154}
     - Class: 114
-      Script: {instanceID: 3308}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 3328}
     - Class: 114
-      Script: {instanceID: 4060}
+      Script: {instanceID: 3414}
     - Class: 114
-      Script: {instanceID: 4584}
+      Script: {instanceID: 4094}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 4624}
     - Class: 114
-      Script: {instanceID: 5312}
+      Script: {instanceID: 5010}
     - Class: 114
-      Script: {instanceID: 5768}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5876}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6830}
+      Script: {instanceID: 6486}
     - Class: 114
-      Script: {instanceID: 6972}
+      Script: {instanceID: 6904}
     - Class: 114
-      Script: {instanceID: 7054}
+      Script: {instanceID: 7046}
     - Class: 114
-      Script: {instanceID: 7148}
+      Script: {instanceID: 7128}
     - Class: 114
-      Script: {instanceID: 7162}
+      Script: {instanceID: 7224}
     - Class: 114
-      Script: {instanceID: 7496}
+      Script: {instanceID: 7238}
     - Class: 114
-      Script: {instanceID: 7780}
+      Script: {instanceID: 7576}
     - Class: 114
-      Script: {instanceID: 7856}
+      Script: {instanceID: 7862}
     - Class: 114
-      Script: {instanceID: 8024}
+      Script: {instanceID: 7942}
+    - Class: 114
+      Script: {instanceID: 8112}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -356,33 +363,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 1670}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 2308}
     - Class: 114
-      Script: {instanceID: 2426}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2738}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 4188}
+      Script: {instanceID: 4222}
     - Class: 114
-      Script: {instanceID: 4300}
+      Script: {instanceID: 4338}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4612}
     - Class: 114
-      Script: {instanceID: 5260}
+      Script: {instanceID: 5314}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 5384}
     - Class: 114
-      Script: {instanceID: 6394}
+      Script: {instanceID: 6466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -942,6 +949,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 176d5f6eb327912df350014c1a2d3406
+    assemblyName: Wooshii.HierarchyDecorator
+    namespaceName: HierarchyDecorator
+    className: ExampleScript2
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -1138,6 +1151,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: a4f1476940fd24fa65f0b3bebe7138f2
+    assemblyName: Wooshii.HierarchyDecorator
+    namespaceName: HierarchyDecorator
+    className: ExampleScriptWithIcon
   - hash:
       serializedVersion: 2
       Hash: a75a568ce902366f4e82fc98ca6108f5
@@ -1522,6 +1541,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ButtonColorChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 42f917d6ed71056f15c821613954b286
+    assemblyName: Wooshii.HierarchyDecorator
+    namespaceName: HierarchyDecorator
+    className: ExampleScript
   - hash:
       serializedVersion: 2
       Hash: 4bf8d6f446d3cafb03a885a5cf6f2cd9
