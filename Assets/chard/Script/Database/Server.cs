@@ -3,13 +3,14 @@ using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
+using System.Collections.Generic;
 using System;
 using System.Globalization;
 using System.Net;
 
 public class Server : MonoBehaviour
 {
-    
+
     [SerializeField] GameObject welcomePanel;
     [SerializeField] Text user;
     [SerializeField] GameObject loginPanel;
@@ -32,7 +33,6 @@ public class Server : MonoBehaviour
     [SerializeField] Button playButton;
     [SerializeField] Button logoutButton;
 
-    [SerializeField] string url;
 
     private string bypassUsername = "bypass";
     private string bypassPassword = "bypass";
@@ -64,15 +64,7 @@ public class Server : MonoBehaviour
     {
         loginButton.interactable = false;
         progressCircle.SetActive(true);
-
-        if (username.text == bypassUsername && password.text == bypassPassword)
-        {
-            BypassLogin();
-        }
-        else
-        {
-            StartCoroutine(Login());
-        }
+        StartCoroutine(Login());
     }
 
     public void OnPlayButtonClicked()
@@ -88,125 +80,60 @@ public class Server : MonoBehaviour
         loginPanel.SetActive(true);
     }
 
-
-    IEnumerator Login()
+IEnumerator Login()
 {
-    WWWForm form = new WWWForm();
-    form.AddField("username", username.text);
-    form.AddField("password", password.text);
+    Dictionary<string, string> formData = new();
+    formData["username"] = username.text;
+    formData["password"] = password.text;
 
-    using (UnityWebRequest www = UnityWebRequest.Post(url, form))
+    using UnityWebRequest www = UnityWebRequest.Post("https://manage.np-robotics.com/api/index.php", formData);
+    yield return www.SendWebRequest();
+
+    if (www.result != UnityWebRequest.Result.Success)
     {
-        www.certificateHandler = new CustomCertificateHandler(); // Add this line
-
-        yield return www.SendWebRequest();
-
-        if (www.result != UnityWebRequest.Result.Success)
+        Debug.LogError("Error: " + www.error);
+    }
+    else
+    {
+        string response = www.downloadHandler.text;
+        Debug.Log("Response: " + response);
+        
+        if (response.StartsWith("ECHO DATABASE - "))
         {
-            errorMessages.text = "Can't Login!!!";
-            Debug.Log("<color=red>" + www.error + "</color>");
+            // Extract data from response
+            string[] data = response.Split(new[] { " - " }, StringSplitOptions.None);
+
+            if (data.Length >= 5)
+            {
+                // Assuming the response format: ECHO DATABASE - username - first name - last name - permission
+                user.text = data[1]; // Username
+                firstNameText.text = data[2]; // First name
+                lastNameText.text = data[3];  // Last name
+                dateText.text = data[4]; // Permission
+
+                // Update the UI
+                welcomePanel.SetActive(true);
+                loginPanel.SetActive(false);
+                Debug.Log("Login successful!");
+            }
+            else
+            {
+                Debug.LogError("Response format is incorrect. Expected at least 5 parts.");
+            }
+        }
+        else if (response.StartsWith("SERVER: error,"))
+        {
+            Debug.LogError("Invalid username or password.");
+            errorMessages.text = "Invalid username or password.";
         }
         else
         {
-            if (www.isDone)
-            {
-                // Split response to get the required data
-                string response = www.downloadHandler.text;
-                Debug.Log("Response from server: " + response);
-                if (response.Contains("error"))
-                {
-                    errorMessages.text = "Invalid username or password!";
-                    Debug.Log("<color=red>" + response + "</color>");
-                }
-                else
-                {
-                    // Parse the response to extract first name and last name
-                    string[] data = response.Split(new[] { " - " }, System.StringSplitOptions.None);
-                    user.text = data[1]; // username
-                    firstNameText.text = data[2].Split(' ')[0]; // first name
-                    lastNameText.text = data[3].Split(' ')[0];  // last name
-                    dateText.text = data[4];
-                    licenseText.text = data[5];
-                    licenseEXPText.text = data[6];
-
-                    // Check if EXPDATE is NULL
-                    if (string.IsNullOrEmpty(licenseEXPText.text) || licenseEXPText.text.Equals("NULL", StringComparison.OrdinalIgnoreCase))
-                    {
-                        daysRemainingText.text = "license lifetime";
-                        daysRemainingText.color = Color.yellow; // Set text color to yellow
-                        remainingDaysText.text = " "; // Not applicable for license lifetime
-                        alertText.gameObject.SetActive(false); // Hide alert message
-                    }
-                    else
-                    {
-                        if (DateTime.TryParseExact(data[6], "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime expiryDate))
-                        {
-                            // Normalize the time components to ensure correct day difference calculation
-                            DateTime currentDate = DateTime.Now.Date; // Current date with time set to 00:00
-                            expiryDate = expiryDate.Date; // Expiry date with time set to 00:00
-
-                            int daysRemaining = (expiryDate - currentDate).Days;
-
-                            // Update the status text
-                            if (daysRemaining > 0)
-                            {
-                                daysRemainingText.text = "Active";
-                                daysRemainingText.color = Color.green; // Set text color to green
-                                alertText.gameObject.SetActive(false); // Hide alert message
-                            }
-                            else
-                            {
-                                daysRemainingText.text = "Expiry Date";
-                                daysRemainingText.color = Color.red; // Set text color to red
-                                alertText.gameObject.SetActive(true); // Hide alert message
-                            }
-
-                            // Update the remaining days text
-                            remainingDaysText.text = $"{daysRemaining} days";
-                        }
-                        else
-                        {
-                            daysRemainingText.text = "Invalid Date Format";
-                            daysRemainingText.color = Color.yellow; // Set text color to yellow for invalid format
-                            remainingDaysText.text = " "; // Not applicable for invalid format
-                        }
-                    }
-
-                    // Open welcome panel
-                    welcomePanel.SetActive(true);
-                    Debug.Log("<color=green>" + response + "</color>");
-                }
-                Debug.Log("Response from server: " + response);
-            }
+            Debug.LogError("Unexpected response format: " + response);
         }
-        
-        Debug.Log("Sending Username: " + username.text);
-Debug.Log("Sending Password: " + password.text);
-        loginButton.interactable = true;
-        progressCircle.SetActive(false);
-        
     }
+
+    loginButton.interactable = true;
+    progressCircle.SetActive(false);
 }
 
-    private void BypassLogin()
-    {
-        welcomePanel.SetActive(true);
-        user.text = username.text;
-        firstNameText.text = "Bypass"; // You can customize this as needed
-        lastNameText.text = "Bypass"; // You can customize this as needed
-        dateText.text = "N/A";          // Customize as needed for bypass
-        daysRemainingText.text = "N/A"; // Customize as needed for daysRemaining
-        Debug.Log("<color=green>Bypass login successful</color>");
-
-        loginButton.interactable = true;
-        progressCircle.SetActive(false);
-    }
-    public class CustomCertificateHandler : CertificateHandler
-{
-    protected override bool ValidateCertificate(byte[] certificateData)
-    {
-        // Always return true to bypass SSL certificate validation
-        return true;
-    }
-}
 }
