@@ -64,7 +64,89 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\LinkAccountScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\NotConnectedAppScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\MainApiConnection.Generated.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\PatcherBannerImageDimensions.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\StatsReport.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\UnsupportedPlatformScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppVersionChangelog.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnectionServer.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiServerConnectionException.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\ExtensionVersion.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Window.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\ValidationException.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Changelog.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Job.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Encryption.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentTorrentUrl.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Keys\Job.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\AccountWindow.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\AboutWindow.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Network\UnityHttpClient.cs" />
     <Compile Include="Assets\Editor\FitWindowOnDoubleClick.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\App.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\ContentUrl.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Api.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\PluginAssert.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Plan.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\AboutScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppName.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\KeysApiConnection.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppPlatform.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\PluginResources.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiResponseException.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Error.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\MainApiConnection.Manual.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnectionException.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Style.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppDiffTorrentUrl.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Upload.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\IApiResponse.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Descriptions.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\NotLinkedAccountScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\CreateAppScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnection.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppSecret.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\ConnectAppScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentUrl.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnectionSettings.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Tools\PatchKitToolsClient.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentSummaryFile.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Keys\Error.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Tools\Terminal.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\FileSystem.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\BuildAndUploadWindow.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\SystemPatchers.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppBuild.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppDiffSummary.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppDiffUrl.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Tools\PatchKitToolsPackages.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\ApiKey.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\SafeBuildAndUploadScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Zip.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\KeysApiConnection.Generated.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\ApiArrayWrapper.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Config.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\InvalidArgumentException.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentSummary.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Network\UnityHttpResponse.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Environment.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Utilities\UnixTimeConvert.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Keys\LicenseKey.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppVersion.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\PluginAssertionException.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Screen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppVersionId.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\ResourceUrl.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppVersionLabel.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\BuildAndUploadScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppPlatformExtensions.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiResponse.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\LinkedAccountScreen.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Chunks.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\EnvironmentPlatform.cs" />
+    <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\MainApiConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -419,6 +501,10 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>Assets\PatchKit\UnityEditorExtension\Library\Ionic.Zip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.4\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -429,6 +515,14 @@
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.4.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PatchKit.Network">
+      <HintPath>Assets\PatchKit\UnityEditorExtension\Library\PatchKit.Network.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PatchKit.Logging">
+      <HintPath>Assets\PatchKit\UnityEditorExtension\Library\PatchKit.Logging.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">
