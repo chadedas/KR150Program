@@ -98,29 +98,76 @@ IEnumerator Login()
         string response = www.downloadHandler.text;
         Debug.Log("Response: " + response);
         
-        if (response.StartsWith("ECHO DATABASE - "))
-        {
-            // Extract data from response
-            string[] data = response.Split(new[] { " - " }, StringSplitOptions.None);
-
-            if (data.Length >= 5)
+if (response.StartsWith("ECHO DATABASE - "))
             {
-                // Assuming the response format: ECHO DATABASE - username - first name - last name - permission
-                user.text = data[1]; // Username
-                firstNameText.text = data[2]; // First name
-                lastNameText.text = data[3];  // Last name
-                dateText.text = data[4]; // Permission
+                // Extract data from response
+                string[] data = response.Split(new[] { " - " }, StringSplitOptions.None);
 
-                // Update the UI
-                welcomePanel.SetActive(true);
-                loginPanel.SetActive(false);
-                Debug.Log("Login successful!");
+                if (data.Length >= 7)
+                {
+                    user.text = data[1]; // Username
+                    firstNameText.text = data[2]; // First name
+                    lastNameText.text = data[3];  // Last name
+                    dateText.text = data[4]; // Permission 
+                    if (data[5].Length == 16)
+                    {
+                        licenseText.text = string.Format("{0}-{1}-{2}-{3}",
+                            data[5].Substring(0, 4),
+                            data[5].Substring(4, 4),
+                            data[5].Substring(8, 4),
+                            data[5].Substring(12, 4));
+                    }
+                    else
+                    {
+                        Debug.LogError("License key does not have 16 characters.");
+                    }
+
+                    if (string.IsNullOrEmpty(data[6]))
+                    {
+                        data[6] = "ถาวร";
+                        remainingDaysText.text = "ใช้งานได้";
+                    }
+                    else
+                    {
+                        // Convert license expiration date to DateTime
+                        DateTime licenseExpiryDate;
+                        if (DateTime.TryParseExact(licenseEXPText.text, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out licenseExpiryDate))
+                        {
+                            // Get current date in Thailand timezone
+                            TimeZoneInfo thailandTimeZone = TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time");
+                            DateTime currentDateInThailand = TimeZoneInfo.ConvertTime(DateTime.Now, thailandTimeZone);
+
+                            // Compare dates
+                            if (DateTime.Compare(currentDateInThailand, licenseExpiryDate) < 0)
+                            {
+                                remainingDaysText.text = "ใช้งานได้";
+                            }
+                            else
+                            {
+                                remainingDaysText.text = "ไม่สามารถใช้งานได้";
+                            }
+
+                            // Display remaining days
+                            TimeSpan remainingDays = licenseExpiryDate - currentDateInThailand;
+                            daysRemainingText.text = remainingDays.Days.ToString();
+                        }
+                        else
+                        {
+                            Debug.LogError("รูปแบบวันหมดอายุไม่ถูกต้อง");
+                        }
+                    }
+                    licenseEXPText.text = data[6];
+                    // Update the UI
+                    welcomePanel.SetActive(true);
+                    loginPanel.SetActive(false);
+                    Debug.Log("Login successful!");
+                }
+                else
+                {
+                    Debug.LogError("Response format is incorrect. Expected at least 8 parts.");
+                    errorMessages.text = "Server response is incomplete.";
+                }
             }
-            else
-            {
-                Debug.LogError("Response format is incorrect. Expected at least 5 parts.");
-            }
-        }
         else if (response.StartsWith("SERVER: error,"))
         {
             Debug.LogError("Invalid username or password.");

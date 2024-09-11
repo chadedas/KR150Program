@@ -1,31 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ControlledFreeLookCamera
+    - ClickAndDestroy
     - CursorChanger
+    - EasyAspectRatio.AspectRatioControl
     - FullscreenToggle
-    - GameController
     - HoverButton
     - LoadingScreen
     - MenuController
-    - ObjectAClickHandler
-    - ObjectBClickHandler
-    - ObjectCClickHandler
-    - Outline
     - PasswordToggle
     - Server
     - TitleBarDoubleClick
     - ToggleButtons
     - WindowManager
     Cinemachine.dll:
-    - Cinemachine.CinemachineBasicMultiChannelPerlin
     - Cinemachine.CinemachineBrain
-    - Cinemachine.CinemachineComposer
-    - Cinemachine.CinemachineFreeLook
-    - Cinemachine.CinemachineOrbitalTransposer
-    - Cinemachine.CinemachinePipeline
-    - Cinemachine.CinemachineVirtualCamera
-    - Cinemachine.NoiseSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -71,18 +60,6 @@ ScriptsOnlyBuild:
     Wooshii.HierarchyDecorator.Editor.dll:
     - HierarchyDecorator.Settings
   serializedClasses:
-    Cinemachine:
-    - Cinemachine.AxisState
-    - Cinemachine.AxisState/Recentering
-    - Cinemachine.CinemachineBlendDefinition
-    - Cinemachine.CinemachineBrain/BrainEvent
-    - Cinemachine.CinemachineBrain/VcamActivatedEvent
-    - Cinemachine.CinemachineFreeLook/Orbit
-    - Cinemachine.CinemachineOrbitalTransposer/Heading
-    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
-    - Cinemachine.LensSettings
-    - Cinemachine.NoiseSettings/NoiseParams
-    - Cinemachine.NoiseSettings/TransformNoiseParams
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -246,45 +223,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1654}
-    - Class: 114
       Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 1860}
-    - Class: 114
-      Script: {instanceID: 1864}
-    - Class: 114
       Script: {instanceID: 2464}
-    - Class: 114
-      Script: {instanceID: 2712}
     - Class: 114
       Script: {instanceID: 2772}
     - Class: 114
       Script: {instanceID: 2788}
     - Class: 114
-      Script: {instanceID: 2858}
-    - Class: 114
       Script: {instanceID: 3004}
-    - Class: 114
-      Script: {instanceID: 3204}
     - Class: 114
       Script: {instanceID: 3330}
     - Class: 114
       Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 3476}
-    - Class: 114
       Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 4716}
-    - Class: 114
-      Script: {instanceID: 5114}
-    - Class: 114
       Script: {instanceID: 5484}
-    - Class: 114
-      Script: {instanceID: 5954}
-    - Class: 114
-      Script: {instanceID: 6066}
     - Class: 114
       Script: {instanceID: 6624}
     - Class: 114
@@ -292,20 +247,20 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7062}
     - Class: 114
-      Script: {instanceID: 7206}
-    - Class: 114
       Script: {instanceID: 7288}
     - Class: 114
       Script: {instanceID: 7384}
-    - Class: 114
-      Script: {instanceID: 7398}
     - Class: 114
       Script: {instanceID: 8036}
     - Class: 114
       Script: {instanceID: 8120}
     - Class: 114
-      Script: {instanceID: 8290}
+      Script: {instanceID: 25310}
+    - Class: 114
+      Script: {instanceID: 68678}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -1959,6 +1914,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 73ebb711ccc50a10be481f63ca8805c9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ClickAndDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 53215b450ac6ce250cc982c2df2b8b76
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyAspectRatio
+    className: AspectRatioControl
   platform: 19
   scenePathNames:
   - Assets/chard/Scenes/LoginScenes.unity
