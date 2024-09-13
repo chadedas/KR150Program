@@ -92,6 +92,7 @@
     <Compile Include="Assets\Gaskellgames\Camera Controller\Resources\Data\TrackData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Properties\SubTransform.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\UIButton_ShowNext.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\ExtensionUtility\AudioExtensions.cs" />
     <Compile Include="Assets\Script\TitleBarDoubleClick.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Assets\Script\FullscreenToggle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
     <Compile Include="Assets\Gaskellgames\Camera Controller\Resources\Scripts\CameraShaker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -188,6 +190,7 @@
     <Compile Include="Assets\Gaskellgames\Input Event System\Resources\Scripts\GMKInputController.cs" />
     <Compile Include="Assets\Script\DragHandler.cs" />
     <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\LogsUtility\VerboseLogs.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\SuperCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Script\MenuController.cs" />
     <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\TagDropdownAttribute.cs" />
@@ -200,6 +203,7 @@
     <Compile Include="Assets\Gaskellgames\Input Event System\Resources\Scripts\InputActionManager.cs" />
     <Compile Include="Assets\chard\Script\Database\Server.cs" />
     <Compile Include="Assets\Script\ReplaceableModel.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCamera.cs" />
     <Compile Include="Assets\chard\Script\ControllAssembly\BaseObjectClickHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
@@ -212,6 +216,7 @@
     <None Include="Assets\PatchKit\UnityEditorExtension\Library\Ionic.Zip.dll" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Opaque.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -240,19 +245,25 @@
     <None Include="Assets\chard\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Transparent.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\chard\QuickOutline\Readme.txt" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\chard\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Transparent.shader" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Opaque.shader" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Cutout.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\chard\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Cutout.shader" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Shader\NewUnlitShader.shader" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
