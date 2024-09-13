@@ -326,6 +326,8 @@
 "Assets/chard/Script/NotUse_Examp/Scene/InputLogin.cs"
 "Assets/chard/Script/NotUse_Examp/Scene/SceneT1.cs"
 "Assets/cli.cs"
+"Assets/FreeFlyCamera/Demo/Scripts/ToggleGameObjectEnable.cs"
+"Assets/FreeFlyCamera/Scripts/FreeFlyCamera.cs"
 "Assets/Lazy Dream Studio/Easy Aspect Ratio Control/Scripts/AspectRatioControl.cs"
 "Assets/PleebieJeebies/Scripts/LightManager.cs"
 "Assets/PleebieJeebies/Scripts/LightPreset.cs"

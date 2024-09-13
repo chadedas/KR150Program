@@ -84,7 +84,6 @@
     <Compile Include="Assets\Script\LoadingScreen.cs" />
     <Compile Include="Assets\Script\FullscreenToggle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\Lazy Dream Studio\Easy Aspect Ratio Control\Scripts\AspectRatioControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Script\ToggleButtons.cs" />
@@ -139,6 +138,7 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\fun\outline.shader" />
     <None Include="Assets\chard\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\PatchKit\UnityEditorExtension\Library\Ionic.Zip.dll" />

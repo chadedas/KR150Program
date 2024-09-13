@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - ClickAndDestroy
     - CursorChanger
     - EasyAspectRatio.AspectRatioControl
+    - FreeFlyCamera
     - FullscreenToggle
     - HoverButton
     - LoadingScreen
@@ -142,21 +143,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 2464}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 2672}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 5420}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 5500}
+      Script: {instanceID: 5502}
     - Class: 114
-      Script: {instanceID: 6274}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 7288}
+      Script: {instanceID: 7290}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -225,39 +226,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 2464}
+      Script: {instanceID: 2448}
     - Class: 114
-      Script: {instanceID: 2772}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 5484}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 6624}
+      Script: {instanceID: 5486}
     - Class: 114
-      Script: {instanceID: 6652}
+      Script: {instanceID: 6626}
     - Class: 114
-      Script: {instanceID: 7062}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 7288}
+      Script: {instanceID: 7064}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 7290}
     - Class: 114
-      Script: {instanceID: 8036}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 8120}
+      Script: {instanceID: 7458}
     - Class: 114
-      Script: {instanceID: 25310}
+      Script: {instanceID: 8040}
     - Class: 114
-      Script: {instanceID: 68678}
+      Script: {instanceID: 8124}
+    - Class: 114
+      Script: {instanceID: 27962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -328,27 +331,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2464}
+      Script: {instanceID: 2466}
     - Class: 114
-      Script: {instanceID: 2788}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3006}
     - Class: 114
-      Script: {instanceID: 3058}
+      Script: {instanceID: 3060}
     - Class: 114
-      Script: {instanceID: 3330}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 4418}
+      Script: {instanceID: 4420}
     - Class: 114
-      Script: {instanceID: 4704}
+      Script: {instanceID: 4706}
     - Class: 114
-      Script: {instanceID: 5428}
+      Script: {instanceID: 5430}
     - Class: 114
-      Script: {instanceID: 5500}
+      Script: {instanceID: 5502}
     - Class: 114
-      Script: {instanceID: 6604}
+      Script: {instanceID: 6606}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -558,6 +561,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 53215b450ac6ce250cc982c2df2b8b76
+    assemblyName: Assembly-CSharp
+    namespaceName: EasyAspectRatio
+    className: AspectRatioControl
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -1712,6 +1721,12 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 73ebb711ccc50a10be481f63ca8805c9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ClickAndDestroy
+  - hash:
+      serializedVersion: 2
       Hash: e51cd972b7ea11ce73c7bada4c681972
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1916,16 +1931,16 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 73ebb711ccc50a10be481f63ca8805c9
+      Hash: 6535f733873b42dd32677a8b97f9c7b7
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: ClickAndDestroy
+    className: FreeFlyCamera
   - hash:
       serializedVersion: 2
-      Hash: 53215b450ac6ce250cc982c2df2b8b76
+      Hash: fc59b1e300546e6e4a22cf707d92a332
     assemblyName: Assembly-CSharp
-    namespaceName: EasyAspectRatio
-    className: AspectRatioControl
+    namespaceName: 
+    className: ToggleGameObjectEnable
   platform: 19
   scenePathNames:
   - Assets/chard/Scenes/LoginScenes.unity
