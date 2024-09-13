@@ -28,7 +28,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2022_3_40;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_2022_3_40;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -68,6 +68,7 @@
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\NotConnectedAppScreen.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\MainApiConnection.Generated.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\PatcherBannerImageDimensions.cs" />
+    <Compile Include="Assets\Gaskellgames\Input Event System\Editor\InputEventEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\StatsReport.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\UnsupportedPlatformScreen.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppVersionChangelog.cs" />
@@ -82,51 +83,87 @@
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentTorrentUrl.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Keys\Job.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\AccountWindow.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\ExtensionUtility\Editor\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraTrackEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\AboutWindow.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Network\UnityHttpClient.cs" />
-    <Compile Include="Assets\Editor\FitWindowOnDoubleClick.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\MinMaxDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\MinDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Input Event System\Editor\MenuItemUtilityInputEventSystem.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\App.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\ContentUrl.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Api.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\PluginAssert.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Plan.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\EditorWindowUtility\Editor\Data\MenuTree.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraTriggerZoneEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\AboutScreen.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppName.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\LabelOverrideDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Input Event System\Editor\InputActionManagerEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\KeysApiConnection.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppPlatform.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraRigEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\PluginResources.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraTargetEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiResponseException.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\EditorWindowUtility\Editor\EditorWindowUtility.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\DebugButtonDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Error.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Properties\Editor\PasswordDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\MainApiConnection.Manual.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnectionException.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\MaxDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\HierarchyUtility\Editor\HierarchyUtility.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Style.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\ProjectUtility\Editor\ProjectUtility.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\EditorWindowUtility\Editor\SOGenerators\GGSettings_SO.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppDiffTorrentUrl.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Upload.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\MenuItemUtilityCameraController.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\IApiResponse.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraDollyEditor.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\RangeDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Descriptions.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\NotLinkedAccountScreen.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\MenuItemUtility\Editor\MenuItemUtility.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\CreateAppScreen.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnection.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppSecret.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\ConnectAppScreen.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Properties\Editor\LayerDropdownDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Input Event System\Editor\HierarchyIcon_InputEventSystem.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentUrl.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiConnectionSettings.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\HierarchyUtility\Editor\HierarchyIcon_Utilities.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Tools\PatchKitToolsClient.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\ProgressBarDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Properties\Editor\SceneDataDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentSummaryFile.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\EditorWindowUtility\Editor\EditorWindow_SplitView.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Keys\Error.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Tools\Terminal.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\ShadowTransformEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\FileSystem.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\BuildAndUploadWindow.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\StringDropdownDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\SystemPatchers.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppBuild.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\TagDropdownDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppDiffSummary.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraMultiTargetEditor.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\LineSeparatorDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppDiffUrl.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Tools\PatchKitToolsPackages.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\ApiKey.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\SafeBuildAndUploadScreen.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraShakerEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Zip.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\KeysApiConnection.Generated.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\HierarchyIcon_CameraController.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\ApiArrayWrapper.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\CustomCurveDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\HighlightDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\Config.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\InvalidArgumentException.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppContentSummary.cs" />
@@ -136,15 +173,27 @@
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Keys\LicenseKey.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppVersion.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\PluginAssertionException.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\EditorWindowUtility\Editor\GaskellgamesHub.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\Screen.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\AppVersionId.cs" />
+    <Compile Include="Assets\Gaskellgames\Input Event System\Editor\XRInputControllerEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\ResourceUrl.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraFreelookRigEditor.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\RequiredFieldDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppVersionLabel.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraBrainEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\BuildAndUploadScreen.cs" />
+    <Compile Include="Assets\Gaskellgames\Camera Controller\Editor\CameraSwitcherEditor.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\AppPlatformExtensions.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\RangeMinMaxDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\ApiResponse.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\UI\LinkedAccountScreen.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\Models\Main\Chunks.cs" />
+    <Compile Include="Assets\Gaskellgames\Input Event System\Editor\GMKInputControllerEditor.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Properties\Editor\AudioSourceDataDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\EditorWindowUtility\Editor\GGEditorWindow.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\ReadOnlyDrawer.cs" />
+    <Compile Include="Assets\Gaskellgames\Shared Resources\Utilities\InspectorUtility\Attributes\Editor\GUIColorDrawer.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Core\EnvironmentPlatform.cs" />
     <Compile Include="Assets\PatchKit\UnityEditorExtension\Editor\Api\MainApiConnection.cs" />
   </ItemGroup>
@@ -1045,60 +1094,24 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.40f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Wooshii.HierarchyDecorator">
-      <HintPath>Library\ScriptAssemblies\Wooshii.HierarchyDecorator.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1113,20 +1126,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
@@ -1135,6 +1144,62 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Wooshii.HierarchyDecorator.Editor">
+      <HintPath>Library\ScriptAssemblies\Wooshii.HierarchyDecorator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
@@ -1149,16 +1214,8 @@
       <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Wooshii.HierarchyDecorator.Editor">
-      <HintPath>Library\ScriptAssemblies\Wooshii.HierarchyDecorator.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Wooshii.HierarchyDecorator">
+      <HintPath>Library\ScriptAssemblies\Wooshii.HierarchyDecorator.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

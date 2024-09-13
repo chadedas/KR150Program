@@ -15,7 +15,7 @@ C:/github/KR150Program
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50328
+54849
 Successfully changed project path to: C:/github/KR150Program
 C:/github/KR150Program
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/github/KR150Program
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20360]  Target information:
+Player connection [6132]  Target information:
 
-Player connection [20360]  * "[IP] 172.20.10.4 [Port] 0 [Flags] 2 [Guid] 1976163868 [EditorId] 1976163868 [Version] 1048832 [Id] WindowsEditor(7,15E0-A120) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6132]  * "[IP] 192.168.0.104 [Port] 0 [Flags] 2 [Guid] 1255724399 [EditorId] 1255724399 [Version] 1048832 [Id] WindowsEditor(7,15E0-A120) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20360] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6132] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 134.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005850 seconds.
-- Loaded All Assemblies, in  1.153 seconds
+Registered in 0.005506 seconds.
+- Loaded All Assemblies, in  0.296 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.249 seconds
-Domain Reload Profiling: 1401ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.228 seconds
+Domain Reload Profiling: 523ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (209ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (777ms)
-		LoadAssemblies (102ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (775ms)
-			TypeCache.Refresh (774ms)
-				TypeCache.ScanAssembly (462ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (100ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (249ms)
+	FinalizeReload (229ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (209ms)
+		SetupLoadedEditorAssemblies (191ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,54 +118,54 @@ Domain Reload Profiling: 1401ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.060 seconds
+- Loaded All Assemblies, in  0.617 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.761 seconds
-Domain Reload Profiling: 3819ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 1168ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (2764ms)
-		LoadAssemblies (2601ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (278ms)
-			TypeCache.Refresh (252ms)
-				TypeCache.ScanAssembly (161ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (762ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (553ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (575ms)
+		SetupLoadedEditorAssemblies (439ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.45 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (129.9 KB). Loaded Objects now: 3954.
-Memory consumption went from 141.9 MB to 141.7 MB.
-Total: 3.888400 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.147900 ms MarkObjects: 3.295300 ms  DeleteObjects: 0.140100 ms)
+Unloading 3993 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (169.8 KB). Loaded Objects now: 4462.
+Memory consumption went from 159.1 MB to 158.9 MB.
+Total: 2.653300 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.223700 ms  DeleteObjects: 0.124900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -174,6 +174,1588 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4258.273436 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Scenes/ExampleScene_CameraController.unity
+  artifactKey: Guid(a664248f2b9ffc743a7253db8c2cfa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Scenes/ExampleScene_CameraController.unity using Guid(a664248f2b9ffc743a7253db8c2cfa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c267850feaa862410568fc397fa4852') in 0.002000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.356 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1144ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (424ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4477.
+Memory consumption went from 147.3 MB to 147.1 MB.
+Total: 2.744700 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.253700 ms  DeleteObjects: 0.111500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53.809717 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fc1092fef13bf1fb2146e9e06b337e9') in 0.004264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.721411 seconds.
+  path: Packages/com.unity.performance.profile-analyzer/package.json
+  artifactKey: Guid(478e38cbe30254f8c868840b4e2f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.performance.profile-analyzer/package.json using Guid(478e38cbe30254f8c868840b4e2f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'feae773181610f27dd9612d1c3a2100c') in 0.009914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.393828 seconds.
+  path: Packages/com.wooshii.hierarchydecorator/package.json
+  artifactKey: Guid(ca218642cb42ab6409e84fe7fdebd3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.wooshii.hierarchydecorator/package.json using Guid(ca218642cb42ab6409e84fe7fdebd3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c86728d8b770e9cb5e640353a7018fa') in 0.000914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.867523 seconds.
+  path: Packages/com.unity.settings-manager/package.json
+  artifactKey: Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.settings-manager/package.json using Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8160ef5bed37e7927f8f9968e4671772') in 0.000839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.275242 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content
+  artifactKey: Guid(e097d28616e363445a5e54ec20f846fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content using Guid(e097d28616e363445a5e54ec20f846fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f293ee890d0afc89a7f6a0fde73fce3') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.200515 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab
+  artifactKey: Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab using Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f41386e1be0759aa46042c0e721da22') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab
+  artifactKey: Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab using Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '827440f78a81a2dec60d9438b3205c74') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab
+  artifactKey: Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab using Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e07465678e35a98408461ca753717bc') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.000367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab
+  artifactKey: Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab using Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a4d5ab3da5c4a4e81deae12244e8a99') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.096512 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Documentation
+  artifactKey: Guid(2d0ba194cf06b1345b6c6a1bb20679ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Documentation using Guid(2d0ba194cf06b1345b6c6a1bb20679ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5519e72ae2b5a3626d79977e5505ad8') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.504081 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Documentation/Camera Controller - Gaskellgames - User guide v1.4.0.pdf
+  artifactKey: Guid(b18a1ab80c329a644819a5fd838f49f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Documentation/Camera Controller - Gaskellgames - User guide v1.4.0.pdf using Guid(b18a1ab80c329a644819a5fd838f49f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9a0061401708093ad60a30432e24762') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 242.969749 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor
+  artifactKey: Guid(af6d5b3dcdbfded428e73c92dfd3bb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor using Guid(af6d5b3dcdbfded428e73c92dfd3bb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0965eac813758331bca08c80c130a028') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.526840 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/CameraBrainEditor.cs
+  artifactKey: Guid(bbf9972c894b17b44981aeec520c07a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/CameraBrainEditor.cs using Guid(bbf9972c894b17b44981aeec520c07a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7bd1db2f187a0796924a01596659f387') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.563123 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons
+  artifactKey: Guid(1a57bb1dba979ff46973fd3102d11bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons using Guid(1a57bb1dba979ff46973fd3102d11bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b1d096dcbf59f88bf4b582b7ce1336d') in 0.000663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043435 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraBrain.png
+  artifactKey: Guid(92bd6fcc7ba81e046925de9d86b3b5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraBrain.png using Guid(92bd6fcc7ba81e046925de9d86b3b5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2067853c1abdfb79edee06f238e63c4f') in 0.076891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraSwitcher.png
+  artifactKey: Guid(997a7b776f9c88c4e8881f073815c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraSwitcher.png using Guid(997a7b776f9c88c4e8881f073815c107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aa6e572ac70f169228589829d94d7c41') in 0.017624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraFreelookRig.png
+  artifactKey: Guid(211e3fc673cec644b904c2f873b1104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraFreelookRig.png using Guid(211e3fc673cec644b904c2f873b1104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c4d5fadacb5a5b067001c5b15cbee2f') in 0.016654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraMultiTarget.png
+  artifactKey: Guid(7925bc1b6c4ed524ca4ba01d8a1669e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraMultiTarget.png using Guid(7925bc1b6c4ed524ca4ba01d8a1669e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1de0e21a15aa14e48953d6a08f1b6362') in 0.023416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraTrack.png
+  artifactKey: Guid(a27fe488ff956774380732118e37445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraTrack.png using Guid(a27fe488ff956774380732118e37445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c9dfbaf82841ec00a9ad30c35b7efcc') in 0.044250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraTriggerZone.png
+  artifactKey: Guid(b893950b608af4f48b1e807a7ad8201a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraTriggerZone.png using Guid(b893950b608af4f48b1e807a7ad8201a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1de006b9fa172faed43b14c0f1b682a2') in 0.019691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraTarget.png
+  artifactKey: Guid(0ddace76c01957d48b0c9bd36ef05b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/Icons/Icon_CameraTarget.png using Guid(0ddace76c01957d48b0c9bd36ef05b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ff2d9ff842c1f757f00cfc8d26f46003') in 0.018849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.005767 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources
+  artifactKey: Guid(5e516ed344a845345803fb47b22322d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources using Guid(5e516ed344a845345803fb47b22322d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'db6da036d3829a77a22fa0363068f29b') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.925921 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Data
+  artifactKey: Guid(6c2523b1ddbc2ba44948bccba834d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Data using Guid(6c2523b1ddbc2ba44948bccba834d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3543bff42b8aaf2257a5b0a832b2996b') in 0.000522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.100240 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Data/CameraOrbitsHeight.cs
+  artifactKey: Guid(20bbb4572a5db9e479b5c15d99c08ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Data/CameraOrbitsHeight.cs using Guid(20bbb4572a5db9e479b5c15d99c08ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8dfa47ed687c261bdf44573d080403db') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.802188 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Data/CameraLens.cs
+  artifactKey: Guid(ec3e94fc110d79244aa2a2a604de6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Data/CameraLens.cs using Guid(ec3e94fc110d79244aa2a2a604de6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16e654f0532f9d576e78418b26844587') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.239988 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts
+  artifactKey: Guid(3d8838c1730008c46ba650847f6168f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts using Guid(3d8838c1730008c46ba650847f6168f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c291805572d8e3e8409d9f5f960d696') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (425ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (141.9 KB). Loaded Objects now: 4498.
+Memory consumption went from 147.4 MB to 147.2 MB.
+Total: 3.999000 ms (FindLiveObjects: 0.416100 ms CreateObjectMapping: 0.213200 ms MarkObjects: 3.221500 ms  DeleteObjects: 0.146100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0dab180e4198389ebc6b7408de5c8ad1 -> 7b5b10cfb096b4bdcfed18b89700a46e
+========================================================================
+Received Import Request.
+  Time since last request: 32.261864 seconds.
+  path: Assets/cli.cs
+  artifactKey: Guid(d468ce9c73e5b1440b31d82fbf8a0f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cli.cs using Guid(d468ce9c73e5b1440b31d82fbf8a0f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebb74d7f634ca3bf53b804bb62e0420c') in 0.003345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.344852 seconds.
+  path: Assets/Brain.cs
+  artifactKey: Guid(2135f4e660a4d924c82574093ab2902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brain.cs using Guid(2135f4e660a4d924c82574093ab2902f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'de434435c29556976146e9cc07524578') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.383 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.818 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (818ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (142.4 KB). Loaded Objects now: 4512.
+Memory consumption went from 147.4 MB to 147.2 MB.
+Total: 2.988000 ms (FindLiveObjects: 0.237400 ms CreateObjectMapping: 0.114000 ms MarkObjects: 2.512100 ms  DeleteObjects: 0.123100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.457546 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.003153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab
+  artifactKey: Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab using Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '827440f78a81a2dec60d9438b3205c74') in 0.000537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab
+  artifactKey: Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab using Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e07465678e35a98408461ca753717bc') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab
+  artifactKey: Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab using Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a4d5ab3da5c4a4e81deae12244e8a99') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.711473 seconds.
+  path: Assets/Gaskellgames/Camera Controller
+  artifactKey: Guid(562e41fd879f11946914ff11612ef9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller using Guid(562e41fd879f11946914ff11612ef9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5aa08ddc730705c90d082e8b7158e849') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.439765 seconds.
+  path: Assets/Gaskellgames/Input Event System
+  artifactKey: Guid(bfdf2098a3983fa4a9ad92d979041caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Input Event System using Guid(bfdf2098a3983fa4a9ad92d979041caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd01b4db39863536a43cd0bd26b2fc5f') in 0.000501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.020907 seconds.
+  path: Assets/Gaskellgames/Input Event System/Editor
+  artifactKey: Guid(c93d190cafec71a46a5e802fb7728aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Input Event System/Editor using Guid(c93d190cafec71a46a5e802fb7728aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8f45ec5ed715832e61e1d7830671e88') in 0.000460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.374892 seconds.
+  path: Assets/Gaskellgames/Input Event System/Editor/HierarchyIcon_InputEventSystem.cs
+  artifactKey: Guid(21b38f676c58225469fc16923fe49ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Input Event System/Editor/HierarchyIcon_InputEventSystem.cs using Guid(21b38f676c58225469fc16923fe49ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43a540b8dfe4a87b62fb247227c8248c') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.202819 seconds.
+  path: Assets/Gaskellgames/Shared Resources
+  artifactKey: Guid(14a63715dfb656947b789ba6285afdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources using Guid(14a63715dfb656947b789ba6285afdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '421072226963657ef23a63c6af33deda') in 0.000514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.011235 seconds.
+  path: Assets/Gaskellgames/Shared Resources/Materials
+  artifactKey: Guid(4ea53826ce158c846b0160235a0fa08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources/Materials using Guid(4ea53826ce158c846b0160235a0fa08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd087dac0d94531fd9ec1a0664e1b1ecb') in 0.000466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.331171 seconds.
+  path: Assets/Gaskellgames/Shared Resources/Terrain
+  artifactKey: Guid(65c3391b302372a478d2332698e17d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources/Terrain using Guid(65c3391b302372a478d2332698e17d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb551d064517ddb5a8348f3a53f9c546') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.653529 seconds.
+  path: Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers
+  artifactKey: Guid(101615cea6c61174d83d0b200728106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers using Guid(101615cea6c61174d83d0b200728106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3564015c2d8d504e5341d5cd031dd846') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062487 seconds.
+  path: Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Black.terrainlayer
+  artifactKey: Guid(f64d8cb11fe57da41a91ed7a73c08449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Black.terrainlayer using Guid(f64d8cb11fe57da41a91ed7a73c08449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd3154e855a1dd50bf8b2b1741f22fab9') in 0.043852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Grey.terrainlayer
+  artifactKey: Guid(e056b2648387ff742877303451a6ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Grey.terrainlayer using Guid(e056b2648387ff742877303451a6ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ca41a5add942416e5b86c9a2e6df0d81') in 0.011359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Green.terrainlayer
+  artifactKey: Guid(a3a5f2b911a6ea4469f73544299ee573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Shared Resources/Terrain/TerrainLayers/TLayer_Green.terrainlayer using Guid(a3a5f2b911a6ea4469f73544299ee573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd16b5dce27422050becd47a83ba3b047') in 0.012083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.430 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.085 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (468ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4529.
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 4.525900 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.163300 ms MarkObjects: 3.828500 ms  DeleteObjects: 0.144900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311.457613 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.004859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab
+  artifactKey: Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab using Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e07465678e35a98408461ca753717bc') in 0.000581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab
+  artifactKey: Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab using Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a475514870e052ed072d56d5a39dcb75') in 0.000501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTrack.prefab
+  artifactKey: Guid(f08f80291d03b404886fc133a73d6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTrack.prefab using Guid(f08f80291d03b404886fc133a73d6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cb1ee9cab90cf1d7ce429d630ba7672') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraBrain.prefab
+  artifactKey: Guid(e4d31e948cf516b4ab14f13b83d5b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraBrain.prefab using Guid(e4d31e948cf516b4ab14f13b83d5b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8c99dc01a9bd110a2573f42d94f4e78') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab
+  artifactKey: Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab using Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06fbaef7725327a8940e6346be34402d') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.405 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 1382ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.1 KB). Loaded Objects now: 4544.
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 3.633500 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.127000 ms MarkObjects: 2.972400 ms  DeleteObjects: 0.198500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.094827 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.004810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab
+  artifactKey: Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab using Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '827440f78a81a2dec60d9438b3205c74') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab
+  artifactKey: Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab using Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a475514870e052ed072d56d5a39dcb75') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraBrain.prefab
+  artifactKey: Guid(e4d31e948cf516b4ab14f13b83d5b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraBrain.prefab using Guid(e4d31e948cf516b4ab14f13b83d5b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8c99dc01a9bd110a2573f42d94f4e78') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab
+  artifactKey: Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab using Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f41386e1be0759aa46042c0e721da22') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.982 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (983ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4559.
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 3.781700 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.177600 ms MarkObjects: 3.086900 ms  DeleteObjects: 0.144500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.976073 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.004477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab
+  artifactKey: Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab using Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06fbaef7725327a8940e6346be34402d') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 151.385303 seconds.
+  path: Assets/Gaskellgames/Input Event System/Resources/InputActions/InputActionsGaskellgames.inputactions
+  artifactKey: Guid(3cbb883ef1e586a4991387a291e7a14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Input Event System/Resources/InputActions/InputActionsGaskellgames.inputactions using Guid(3cbb883ef1e586a4991387a291e7a14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2b8e2c7a40e9cbb2f9850a25aa2d7a4') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.408 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.012 seconds
+Domain Reload Profiling: 1418ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4574.
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 4.287300 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.151700 ms MarkObjects: 3.599000 ms  DeleteObjects: 0.162700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.154758 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.004851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab
+  artifactKey: Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab using Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f41386e1be0759aa46042c0e721da22') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.385 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1332ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (950ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4589.
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 3.998700 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.134500 ms MarkObjects: 3.245400 ms  DeleteObjects: 0.149100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.979133 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.003849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab
+  artifactKey: Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab using Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06fbaef7725327a8940e6346be34402d') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.385 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.897 seconds
+Domain Reload Profiling: 1280ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.1 KB). Loaded Objects now: 4604.
+Memory consumption went from 147.5 MB to 147.3 MB.
+Total: 3.271300 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.232300 ms MarkObjects: 2.594400 ms  DeleteObjects: 0.130700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 357.451454 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '200e722ea145574e1dbc894d5fe83a75') in 0.003800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 272.228027 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.000955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab
+  artifactKey: Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab using Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '827440f78a81a2dec60d9438b3205c74') in 0.000635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab
+  artifactKey: Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab using Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e07465678e35a98408461ca753717bc') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab
+  artifactKey: Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab using Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a475514870e052ed072d56d5a39dcb75') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTrack.prefab
+  artifactKey: Guid(f08f80291d03b404886fc133a73d6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTrack.prefab using Guid(f08f80291d03b404886fc133a73d6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cb1ee9cab90cf1d7ce429d630ba7672') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab
+  artifactKey: Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab using Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a4d5ab3da5c4a4e81deae12244e8a99') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab
+  artifactKey: Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab using Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f41386e1be0759aa46042c0e721da22') in 0.000643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 106.664085 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/ShadowTransformEditor.cs
+  artifactKey: Guid(6c9bd35490474494db8516b8ab6b20b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/ShadowTransformEditor.cs using Guid(6c9bd35490474494db8516b8ab6b20b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7787d59920fc6610f6d54eaa38dc4dc4') in 0.000699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.160320 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/CameraTargetEditor.cs
+  artifactKey: Guid(666bb664715f95d44802b2c478047876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/CameraTargetEditor.cs using Guid(666bb664715f95d44802b2c478047876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a57406f9679902db7784b6d6a29a369') in 0.000570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.859435 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/CameraTrackEditor.cs
+  artifactKey: Guid(c3f1017e3ebd81b45b8db3dd225aa00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/CameraTrackEditor.cs using Guid(c3f1017e3ebd81b45b8db3dd225aa00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1be2ca53739685eed9e0df0819f42b40') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.378853 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Editor/CameraSwitcherEditor.cs
+  artifactKey: Guid(362fc3e0669619845a774cf14158a868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Editor/CameraSwitcherEditor.cs using Guid(362fc3e0669619845a774cf14158a868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78537df5391cd39cf98565ae8708c25f') in 0.000534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.893183 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraMultiTarget.cs
+  artifactKey: Guid(fa4d96327dace8040adf0bcc071d787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraMultiTarget.cs using Guid(fa4d96327dace8040adf0bcc071d787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91e700c014e6951900cf317ad5a78741') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.162222 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraFreelookRig.cs
+  artifactKey: Guid(266eb073c45759741950f0973aee7ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraFreelookRig.cs using Guid(266eb073c45759741950f0973aee7ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c200502a67e7cb026663a540adab72a0') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.872056 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraRig.cs
+  artifactKey: Guid(ae199c9253342ed4d89bd678ee6e97ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraRig.cs using Guid(ae199c9253342ed4d89bd678ee6e97ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9eced0bec2608ae31c39c520b318f83') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.556796 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraDolly.cs
+  artifactKey: Guid(f53df692eb428234a833f2687a5c4ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraDolly.cs using Guid(f53df692eb428234a833f2687a5c4ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28d39e1b35fe91c7ba36df46eeb3a1d2') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.210214 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraBrain.cs
+  artifactKey: Guid(8bd463064f46cac4eb3c15d86cb5fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraBrain.cs using Guid(8bd463064f46cac4eb3c15d86cb5fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb411b81b490bfd13e99cc05302ac854') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.092537 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraShaker.cs
+  artifactKey: Guid(b6a93c4f9a61b744c9680724134281c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraShaker.cs using Guid(b6a93c4f9a61b744c9680724134281c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ac6cae6bb161126284dd6a9cb9f0f36') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.215515 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraSwitcher.cs
+  artifactKey: Guid(29fda72abffff0f4982ef712f30c0563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraSwitcher.cs using Guid(29fda72abffff0f4982ef712f30c0563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8b37e6b2e49529d1a647b1981273cf2') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.229992 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraTarget.cs
+  artifactKey: Guid(15d90a34005387843a7198a412e4551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/CameraTarget.cs using Guid(15d90a34005387843a7198a412e4551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a35021394550110707b7ad29f7feecbc') in 0.000718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.402740 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Scripts/ShadowTransform.cs
+  artifactKey: Guid(9614bceef84fbaf45a7268101969e7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Scripts/ShadowTransform.cs using Guid(9614bceef84fbaf45a7268101969e7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '031b0b046fee46d0b735051878be17d6') in 0.000678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.716131 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Models
+  artifactKey: Guid(bc789354b64dcd842a60906641f4b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Models using Guid(bc789354b64dcd842a60906641f4b8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34e236338a4e488ce5c9c68074c83f2e') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055849 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662.asset
+  artifactKey: Guid(aa35e3226a5ff474f96df64e28b28b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662.asset using Guid(aa35e3226a5ff474f96df64e28b28b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b2dd759b85520153e616121edcd23b6') in 0.097798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone)(Clone).asset
+  artifactKey: Guid(f7a3250ddca619c43ad1e3fdf4f37172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone)(Clone).asset using Guid(f7a3250ddca619c43ad1e3fdf4f37172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd71e982ecfd754a181b79e95f9606407') in 0.018869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone) 1.asset
+  artifactKey: Guid(4b77e35ca1e34b042b5b214531276382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone) 1.asset using Guid(4b77e35ca1e34b042b5b214531276382) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fca44fae88c9c928f7efc2b7d7f4f69c') in 0.022094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone) 2.asset
+  artifactKey: Guid(ae9a3a1d46395874395f4871c251dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone) 2.asset using Guid(ae9a3a1d46395874395f4871c251dd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02b9f5f4649361aa545700e94125aa5e') in 0.010996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone).asset
+  artifactKey: Guid(e1fe0007c0e21e64aac352715fde6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Models/pb_Mesh-6662(Clone)(Clone)(Clone)(Clone).asset using Guid(e1fe0007c0e21e64aac352715fde6cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ec32eae7a3517d57831b55490aacbb2') in 0.016977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.110455 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Resources/Data/CameraList.cs
+  artifactKey: Guid(75812d491ac16c641b3dbf1335b92544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Resources/Data/CameraList.cs using Guid(75812d491ac16c641b3dbf1335b92544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c82c49c92d820b732265e623bdc24c3c') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.287124 seconds.
+  path: Assets/Scenes/ExampleScene_CameraController.unity
+  artifactKey: Guid(a664248f2b9ffc743a7253db8c2cfa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ExampleScene_CameraController.unity using Guid(a664248f2b9ffc743a7253db8c2cfa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93a4db44db961b1a00d3b9da9288b124') in 0.000554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.404 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.912 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (913ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4626.
+Memory consumption went from 147.8 MB to 147.6 MB.
+Total: 3.403100 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.120100 ms MarkObjects: 2.796900 ms  DeleteObjects: 0.153600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -185,52 +1767,52 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.538 seconds
+- Loaded All Assemblies, in  0.406 seconds
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.027 seconds
-Domain Reload Profiling: 1562ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 1515ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (255ms)
-		LoadAssemblies (341ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (261ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
+		AnalyzeDomain (17ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1027ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1112ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
+		SetupLoadedEditorAssemblies (636ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (371ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3448 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (101.3 KB). Loaded Objects now: 3969.
-Memory consumption went from 133.2 MB to 133.1 MB.
-Total: 3.744800 ms (FindLiveObjects: 0.249800 ms CreateObjectMapping: 0.226100 ms MarkObjects: 3.206500 ms  DeleteObjects: 0.061000 ms)
+Unloading 3938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4641.
+Memory consumption went from 148.0 MB to 147.9 MB.
+Total: 3.964900 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.139300 ms MarkObjects: 3.316600 ms  DeleteObjects: 0.138000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -240,6 +1822,191 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277.570626 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9dc4d1d43e51163b995d99f64c8e1a76') in 0.002623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 400.321454 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.001096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab
+  artifactKey: Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab using Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '827440f78a81a2dec60d9438b3205c74') in 0.000547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab
+  artifactKey: Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab using Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a475514870e052ed072d56d5a39dcb75') in 0.000686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab
+  artifactKey: Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab using Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06fbaef7725327a8940e6346be34402d') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 137.391865 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab
+  artifactKey: Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab using Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a475514870e052ed072d56d5a39dcb75') in 0.000394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTrack.prefab
+  artifactKey: Guid(f08f80291d03b404886fc133a73d6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTrack.prefab using Guid(f08f80291d03b404886fc133a73d6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cb1ee9cab90cf1d7ce429d630ba7672') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab
+  artifactKey: Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab using Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06fbaef7725327a8940e6346be34402d') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab
+  artifactKey: Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab using Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f41386e1be0759aa46042c0e721da22') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.375 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (848ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.0 KB). Loaded Objects now: 4656.
+Memory consumption went from 147.8 MB to 147.6 MB.
+Total: 3.258100 ms (FindLiveObjects: 0.269800 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.768200 ms  DeleteObjects: 0.111900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -249,12 +2016,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.396 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1249ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (856ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (76.5 KB). Loaded Objects now: 3969.
-Memory consumption went from 79.7 MB to 79.6 MB.
-Total: 2.945800 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.539500 ms  DeleteObjects: 0.041400 ms)
+Unloading 3938 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (142.1 KB). Loaded Objects now: 4671.
+Memory consumption went from 148.1 MB to 147.9 MB.
+Total: 2.925600 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.128600 ms MarkObjects: 2.389500 ms  DeleteObjects: 0.121800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -264,6 +2073,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Brain.cs: 9239530e9d67ab67ea7b9493cbfe4e02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -273,21 +2083,93 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3628.189467 seconds.
-  path: Assets/FPSFont/FPS Gaming Font
-  artifactKey: Guid(ab2a692a00fb2bf45a43d37e25015878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPSFont/FPS Gaming Font using Guid(ab2a692a00fb2bf45a43d37e25015878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0381585b1c9c6be2dc34eecbf3e70bfc') in 0.015478 seconds
+  Time since last request: 248.570504 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab
+  artifactKey: Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Camera Shaker.prefab using Guid(04377b1f1d6644a41a63726ca24b9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afe5211f770fe7ffb9648387b03eb6df') in 0.001912 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.057637 seconds.
-  path: Assets/FPSFont/FPS Gaming Font/Square-Black.ttf
-  artifactKey: Guid(d7cffddcbc0cc8f4ebe6e28eb9804082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPSFont/FPS Gaming Font/Square-Black.ttf using Guid(d7cffddcbc0cc8f4ebe6e28eb9804082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '63614c012cee5fa28a0fbdd57cd0ac9f') in 0.136935 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab
+  artifactKey: Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraFreelookRig.prefab using Guid(7b739ae17cc5d26409fb7913c7dc8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20bceae2575a7dee4c0d9e52811abe79') in 0.000580 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab
+  artifactKey: Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone.prefab using Guid(0b544e3cdb7f12c4480e9d1e85b227dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '827440f78a81a2dec60d9438b3205c74') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab
+  artifactKey: Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraTriggerZone (Multi Target).prefab using Guid(2d030710cb4a4fe418a851b53bbc38bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e07465678e35a98408461ca753717bc') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab
+  artifactKey: Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Character (Camera Setup).prefab using Guid(76f513621db21314baa996c4edf5e934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a475514870e052ed072d56d5a39dcb75') in 0.000844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab
+  artifactKey: Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig.prefab using Guid(fb2c5d40d4b3fb8459c85d330467eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15f490c68637dad3c9068347fe37e1e1') in 0.000501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab
+  artifactKey: Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraRig (Free Fly).prefab using Guid(87a5191c187af0b4483887582fcfb3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a4d5ab3da5c4a4e81deae12244e8a99') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraBrain.prefab
+  artifactKey: Guid(e4d31e948cf516b4ab14f13b83d5b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraBrain.prefab using Guid(e4d31e948cf516b4ab14f13b83d5b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8c99dc01a9bd110a2573f42d94f4e78') in 0.000506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab
+  artifactKey: Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/Debug Camera (FreeFly).prefab using Guid(2a6f0afc96857524baf01466ea059376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06fbaef7725327a8940e6346be34402d') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab
+  artifactKey: Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gaskellgames/Camera Controller/Content/CameraDolly.prefab using Guid(927c08bc2b983254bab08119c40c913f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f41386e1be0759aa46042c0e721da22') in 0.000657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
